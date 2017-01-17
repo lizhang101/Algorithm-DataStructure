@@ -3,8 +3,17 @@ notes and practices of learning algorithm and data structures, and language (Jav
 
 
 # Reference
+
+### TutorialsPoint
+
 - Java Tutorial
 https://www.tutorialspoint.com/java/index.htm
+
+- Data Structure and Algorithms Tutorial
+https://www.tutorialspoint.com/data_structures_algorithms/
+
+
+### GeekforGeeks
 
 - Java Programming Language Related Articles
 http://www.geeksforgeeks.org/java/
