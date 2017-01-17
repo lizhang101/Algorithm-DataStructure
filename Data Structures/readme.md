@@ -1,7 +1,7 @@
 # About data structures learning.
 
 
-# Abstract
+# Abstract Data Type (ADT)
 - Array
   - Array is a container which can hold a fix number of items and these items should be of the same type.
   
