@@ -1,7 +1,17 @@
 # About data structures learning.
-Note: Time and Space Complexity Analysis.
+- Note: 
+  - Time and Space Complexity Analysis.
+  - Use case
 
-# Abstract Data Type (ADT)
+- Mainly used tutorials
+  - Geekforgeeks : http://www.geeksforgeeks.org/data-structures/
+  - TutorialPoint : https://www.tutorialspoint.com/data_structures_algorithms/index.htm
+
+***
+
+# Abstract Data Types (ADT)
+Abstract data type describes what operations are available and what laws they obey.
+
 - Array
   - Array is a container which can hold a fix number of items and these items should be of the same type.
   
@@ -27,10 +37,11 @@ Note: Time and Space Complexity Analysis.
   - set are unordered collections of unique elements.
   
 - Priority Queue
-  - In computer science, a priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
+  - it is like a regular queue or stack, but where additionally each element has a "priority" associated with it. 
+  - In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
   
 - associative array (map, symbol table, or dictionary)
-  - In computer science, an associative array, map, symbol table, or dictionary is an abstract data type composed of a collection of (key, value) pairs, such that each possible key appears at most once in the collection.
+  - it is an abstract data type composed of a collection of (key, value) pairs, such that each possible key appears at most once in the collection.
 
 # Linear Data Structures
 A linear data structure traverses the data elements sequentially, in which only one data element can directly be reached.
@@ -39,9 +50,9 @@ A linear data structure traverses the data elements sequentially, in which only 
 Array is a data structure used to store homogeneous elements at contiguous locations. Size of an array must be provided before storing data.
 
 ## List
-### Array List
+#### Array List
 
-### Linked List
+#### Linked List
 
 Linked List is a sequence of links which contains items. Each link contains a connection to another link.
 
@@ -53,13 +64,28 @@ A linked list is a linear data structure (like arrays) where each element is a s
 
 - Circular Linked List : Last item contains link of the first element as next and the first element has a link to the last element as previous.
   
-- Advantages over arrays
-  - Dynamic size
-  - Ease of insertion/deletion
+Advantages over arrays
+- Dynamic size
+- Ease of insertion/deletion
 
-- Drawbacks
-  - Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
-  - Extra memory space for a pointer is required with each element of the list.
+Drawbacks
+- Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
+- Extra memory space for a pointer is required with each element of the list.
+
+## Hash Table
+Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Items are in the (key,value) format.
+
+Hash Table uses an array as a storage medium and uses hash technique to generate an index where an element is to be inserted or is to be located from.
+
+- Hashing : 
+Hashing is a technique to convert a range of key values into a range of indexes of an array.
+
+- Use case
+  - Hashing can be used to remove duplicates from a set of elements. 
+  - Can also be used find frequency of all items. For example, 
+    - in web browsers, we can check visited urls using hashing. 
+    - in firewalls, we can use hashing to detect spam. We need to hash IP addresses.     
+  - Hashing can be used in any situation where want search() insert() and delete() in O(1) time.
 
 
 # Non-linear Data Structures
@@ -68,7 +94,7 @@ Every data item is attached to several other data items in a way that is specifi
 ## Tree
 Trees are hierarchical data structures.
 
-### Binary Tree
+#### Binary Tree
 
 - A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
 
@@ -80,7 +106,11 @@ Trees are hierarchical data structures.
   - Pointer to right child
     
 - A Binary Tree can be traversed in two ways:
-  - Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postoder (Left-Right-Root)
+  - Depth First Traversal: 
+    - Inorder (Left-Root-Right).
+    - Preorder (Root-Left-Right).
+    - Postoder (Left-Right-Root).
+    
   - Breadth First Traversal: Level Order Traversal
   
 - Use case
@@ -88,7 +118,7 @@ Trees are hierarchical data structures.
     - File structures
     - JavaScript DOM
 
-### Binary Search Tree (BST)
+#### Binary Search Tree (BST)
 
 - Binary Search Tree is a Binary Tree with following additional properties:
   - The left subtree of a node contains only nodes with keys less than the node’s key.
@@ -103,7 +133,7 @@ Trees are hierarchical data structures.
   - Its main use is in search application where data is constantly entering/leaving and data needs to printed in sorted order. eg:
     - E- commerce websites, where a new product is added or product goes out of stock and all products are lised in sorted order. 
 
-### Binary Heap
+#### Binary Heap
 
 - A Binary Heap is a Binary Tree with following properties:
   - It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
@@ -114,10 +144,45 @@ Trees are hierarchical data structures.
   - Order statistics: The Heap data structure can be used to efficiently find the k’th smallest (or largest) element in an array.
   - Heap is a special data structure and it cannot be used for searching of a particular element.
 
+#### AVL Tree
+AVL trees are height balancing binary search tree. 
 
+AVL tree checks the height of the left and the right sub-trees and assures that the difference is not more than 1. This difference is called the Balance Factor.
+
+#### Spanning Tree
+A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected.
 
 ## Graph
+A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
 
+A graph is a pair of sets (V, E), where V is the set of vertices and E is the set of edges, connecting the pairs of vertices.
+
+Terms:
+- Vertex − Each node of the graph is represented as a vertex.
+- Edge − Edge represents a path between two vertices or a line between two vertices.
+- Adjacency − Two node or vertices are adjacent if they are connected to each other through an edge.
+- Path − Path represents a sequence of edges between the two vertices.
+
+Use case:
+- The most common example of the graph is to find shortest path in any network. Used in google maps or bing. 
+- Another common use application of graph are social networking websites where the friend suggestion depends on number of intermediate suggestions and other things.
+
+Graph Traversal
+- Depth First Search (DFS) : traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration.
+
+  - It employs the following rules:
+    - Rule 1 : Visit the adjacent unvisited vertex. Mark it as visited. Display it. Push it in a stack.
+    - Rule 2 : If no adjacent vertex is found, pop up a vertex from the stack. (It will pop up all the vertices from the stack, which do not have adjacent vertices.)
+    - Rule 3 : Repeat Rule 1 and Rule 2 until the stack is empty.
+  
+- Breadth First Search (BFS) : traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration.  
+  - It employs the following rules:
+    - Rule 1 − Visit the adjacent unvisited vertex. Mark it as visited. Display it. Insert it in a queue.
+    - Rule 2 − If no adjacent vertex is found, remove the first vertex from the queue.
+    - Rule 3 − Repeat Rule 1 and Rule 2 until the queue is empty.
+    
+    
+***
 
 # Reference
 - List of data structures
@@ -146,3 +211,9 @@ Trees are hierarchical data structures.
   
 - Priority queue
   - https://en.wikipedia.org/wiki/Priority_queue
+  
+- Tree Traversal
+  - https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
+
+- Graph Theory Tutorial
+  - https://www.tutorialspoint.com/graph_theory/index.htm
