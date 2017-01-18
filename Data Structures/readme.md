@@ -1,6 +1,7 @@
 # About data structures learning.
 - Note: 
-  - Time and Space Complexity Analysis.
+  - Basic operations
+  - Time Complexity
   - Use case
 
 - Mainly used tutorials
