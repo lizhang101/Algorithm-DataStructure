@@ -144,13 +144,6 @@ Trees are hierarchical data structures.
   - Order statistics: The Heap data structure can be used to efficiently find the k’th smallest (or largest) element in an array.
   - Heap is a special data structure and it cannot be used for searching of a particular element.
 
-#### AVL Tree
-AVL trees are height balancing binary search tree. 
-
-AVL tree checks the height of the left and the right sub-trees and assures that the difference is not more than 1. This difference is called the Balance Factor.
-
-#### Spanning Tree
-A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected.
 
 ## Graph
 A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
@@ -181,7 +174,11 @@ Graph Traversal
     - Rule 2 − If no adjacent vertex is found, remove the first vertex from the queue.
     - Rule 3 − Repeat Rule 1 and Rule 2 until the queue is empty.
     
-    
+***
+
+# Advanced Data structures
+TBD...
+
 ***
 
 # Reference
