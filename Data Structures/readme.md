@@ -1,5 +1,5 @@
 # About data structures learning.
-
+Note: Time and Space Complexity Analysis.
 
 # Abstract Data Type (ADT)
 - Array
@@ -12,47 +12,109 @@
 - Stack
   - The stack is a data structure, which implements the behavior "last in – first out" (LIFO).
   - the elements could be added and removed only on the top of the stack.
+  - two principal operations: 
+    - push, which adds an element to the collection.
+    - pop, which removes the last element that was added.
   
 - Queue
   - The abstract data structure "queue" satisfies the behavior "first in – first out" (FIFO).
   - Elements added to the queue are appended at the end of the queue, and when elements are extracted, they are taken from the beginning of the queue (in the order they were added).
+  - two principal operations: 
+    - enqueue, the process of adding an element to the collection.(The element is added from the rear side).
+    - dequeue, the process of removing the first element that was added. (The element is removed from the front side).
   
 - Set
   - set are unordered collections of unique elements.
+  
+- Priority Queue
+  - In computer science, a priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
+  
+- associative array (map, symbol table, or dictionary)
+  - In computer science, an associative array, map, symbol table, or dictionary is an abstract data type composed of a collection of (key, value) pairs, such that each possible key appears at most once in the collection.
 
 # Linear Data Structures
 A linear data structure traverses the data elements sequentially, in which only one data element can directly be reached.
 
-## List
-- Array List
-
-- (Singly) Linked List
-
-- Doubly Linked List
-
-- Circular Linked List
-
 ## Array
+Array is a data structure used to store homogeneous elements at contiguous locations. Size of an array must be provided before storing data.
 
-## Matrix
+## List
+### Array List
 
-## Stack
+### Linked List
 
-## Queue
+Linked List is a sequence of links which contains items. Each link contains a connection to another link.
 
-## Set
+A linked list is a linear data structure (like arrays) where each element is a separate object. Each element (that is node) of a list is comprising of two items – the data and a reference to the next node.
 
-## Map
+- Simple/Singly Linked List : Item navigation is forward only.
 
-## Hashing
+- Doubly Linked List : Items can be navigated forward and backward.
+
+- Circular Linked List : Last item contains link of the first element as next and the first element has a link to the last element as previous.
+  
+- Advantages over arrays
+  - Dynamic size
+  - Ease of insertion/deletion
+
+- Drawbacks
+  - Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
+  - Extra memory space for a pointer is required with each element of the list.
+
 
 # Non-linear Data Structures
 Every data item is attached to several other data items in a way that is specific for reflecting relationships. The data items are not arranged in a sequential structure.
 
 ## Tree
-- binary tree
-- binary search tree
-- heap
+Trees are hierarchical data structures.
+
+### Binary Tree
+
+- A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+
+- A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as fast as in linked list.
+
+- A Binary Tree node contains following parts.
+  - Data
+  - Pointer to left child
+  - Pointer to right child
+    
+- A Binary Tree can be traversed in two ways:
+  - Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postoder (Left-Right-Root)
+  - Breadth First Traversal: Level Order Traversal
+  
+- Use case
+  - One reason to use binary tree or tree in general is for the things that form a hierarchy, eg:
+    - File structures
+    - JavaScript DOM
+
+### Binary Search Tree (BST)
+
+- Binary Search Tree is a Binary Tree with following additional properties:
+  - The left subtree of a node contains only nodes with keys less than the node’s key.
+  - The right subtree of a node contains only nodes with keys greater than the node’s key.
+  - The left and right subtree each must also be a binary search tree.
+  
+- Time Complexities:  
+  - BST provide moderate access/search (quicker than Linked List and slower than arrays).
+  - BST provide moderate insertion/deletion (quicker than Arrays and slower than Linked Lists).
+  
+- Use case
+  - Its main use is in search application where data is constantly entering/leaving and data needs to printed in sorted order. eg:
+    - E- commerce websites, where a new product is added or product goes out of stock and all products are lised in sorted order. 
+
+### Binary Heap
+
+- A Binary Heap is a Binary Tree with following properties:
+  - It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
+  - A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. It is mainly implemented using array.
+  
+- Use case
+  - Used in implementing efficient priority-queues, which in turn are used for scheduling processes in operating systems. Priority Queues are also used in Dijstra’s and Prim’s graph algorithms.
+  - Order statistics: The Heap data structure can be used to efficiently find the k’th smallest (or largest) element in an array.
+  - Heap is a special data structure and it cannot be used for searching of a particular element.
+
+
 
 ## Graph
 
@@ -76,4 +138,11 @@ Every data item is attached to several other data items in a way that is specifi
 - Abstract data structure set
   - http://www.introprogramming.info/english-intro-csharp-book/read-online/chapter-18-dictionaries-hash-tables-and-sets/#_Toc362296548
   
--   
+- What are the differences between Map, Hash and Dictionary in programming languages?
+  - https://www.quora.com/What-are-the-differences-between-Map-Hash-and-Dictionary-in-programming-languages
+
+- Associative array
+  - https://en.wikipedia.org/wiki/Associative_array
+  
+- Priority queue
+  - https://en.wikipedia.org/wiki/Priority_queue
