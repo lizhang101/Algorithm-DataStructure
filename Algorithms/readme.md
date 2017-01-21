@@ -19,4 +19,23 @@ High level idea: suppress constant factors and lower-order terms.
   ```
 
 
-## 
+## Greedy Algorithms
+In greedy algorithm approach, decisions are made from the given solution domain. As being greedy, the closest solution that seems to provide an optimum solution is chosen.
+
+Greedy algorithms try to find a localized optimum solution, which **may** eventually lead to globally optimized solutions. However, generally greedy algorithms do not provide globally optimized solutions.
+
+## Divide and Conquer
+In divide and conquer approach, the problem in hand, is divided into smaller sub-problems and then **each problem is solved independently**. When we keep on dividing the subproblems into even smaller sub-problems, we may eventually reach a stage where no more division is possible. Those "atomic" smallest possible sub-problem (fractions) are solved. The solution of all sub-problems is finally merged in order to obtain the solution of an original problem.
+
+- Divide/Break
+- Conquer/Solve
+- Merge/Combine
+
+Example: merge sort.
+
+## Dynamic Programming
+Dynamic programming approach is similar to divide and conquer in breaking down the problem into smaller and yet smaller possible sub-problems. But unlike, divide and conquer, these sub-problems are not solved independently. Rather, results of these smaller sub-problems are remembered and used for similar or overlapping sub-problems.
+
+Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be **re-used**. Mostly, these algorithms are used for optimization.
+
+
