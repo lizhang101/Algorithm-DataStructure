@@ -80,6 +80,40 @@ var nextGreaterElement = function(findNums, nums) {
 ```
 
 ## [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/#/description)
+### Problem Description
 
+Given a circular array (the next element of the last element is the first element of the array), print the Next Greater Number for every element. The Next Greater Number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, output -1 for this number.
+
+Example 1:
+```
+Input: [1,2,1]
+Output: [2,-1,2]
+Explanation: The first 1's next greater number is 2; 
+The number 2 can't find next greater number; 
+The second 1's next greater number needs to search circularly, which is also 2.
+```
+Note: The length of given array won't exceed 10000.
+
+### Solutions
+#### Solution 1
+
+Brutal method, for each element circularly search right-ward and return the first greater element. If no greater element, return -1.
+```
+var nextGreaterElements = function(nums) {
+    var result = [];
+    var l = nums.length;
+    nums.forEach(function(ele, idx, arr) {
+        for (i = 1; i < l; i++) {
+            var index = (idx + i)%l;
+            if (ele < arr[index]) {
+                result.push(arr[index]);
+                return;
+            }
+        }
+        result.push(-1);
+    })
+    return result;
+};
+```
 
 ## [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)
