@@ -116,4 +116,26 @@ var nextGreaterElements = function(nums) {
 };
 ```
 
+#### Solution 2
+
+Similar as `496. Next Greater Element I`, use stack. The difference is store index instead of element value.
+And search range is from 0 to 2*arr_length.
+
+```
+var nextGreaterElements = function(nums) {
+    var len = nums.length;
+    var result = new Array(len);
+    result.fill(-1);
+    var stack = [];
+    for (i = 0; i < 2*len; i++) {
+        var index = i % len;
+        while (stack.length > 0 && nums[stack[stack.length-1]] < nums[index]) {
+            result[stack.pop()] = nums[index];
+        }
+        if (i < len) stack.push(i);
+    }
+    return result;
+}
+```
+
 ## [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)
