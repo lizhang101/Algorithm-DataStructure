@@ -139,3 +139,53 @@ var nextGreaterElements = function(nums) {
 ```
 
 ## [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)
+### Problem Description
+
+Given a positive 32-bit integer n, you need to find the smallest 32-bit integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive 32-bit integer exists, you need to return -1.
+
+Example 1:
+```
+Input: 12
+Output: 21
+```
+Example 2:
+```
+Input: 21
+Output: -1
+```
+
+### Solution
+
+```
+var nextGreaterElement = function(n) {
+    var arr = n.toString().split('');
+    var len = arr.length;
+    var index = null;
+    var i;
+    var result = [];
+    for (i = len-1; i > 0; i--) {
+        if (arr[i-1] < arr[i]) {
+            index = i-1;
+            break;
+        }
+    }
+    if (index === null) return -1;
+    var val = arr[index];
+    var min = 9;
+    var minIdx = null;
+    for (i = index+1; i < len; i++) {
+        if (arr[i] > val && arr[i] <= min) {
+            min = arr[i];
+            minIdx = i;
+        }
+    }
+    arr[index] = arr[minIdx];
+    arr[minIdx] = val;
+    result = Number(arr.slice(0, index+1).concat(arr.slice(index+1).sort(function(a,b) {
+        return a-b;
+    })).join(''));
+    
+    return (result > Math.MAX_VALUE ? -1:result);
+};
+```
+
