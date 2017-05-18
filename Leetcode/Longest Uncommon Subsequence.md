@@ -53,6 +53,8 @@ All the given strings' lengths will not exceed 10.
 The length of the given list will be in the range of [2, 50].
 
 ### Solution:
+- Solution 1
+
 Traverse the input list of string, find all elements which is not subsequence of all other elements, and return the longest length.
 ```
 var isSubseq = function(str1, str2) {   // return true if str1 is subsequence of str2
@@ -80,5 +82,37 @@ var findLUSlength = function(strs) {
         }
     }
     return res;
+};
+```
+
+- Solution 2
+
+Sort input array by string length(descending), return the length of the first element which is not subsequence of all other elements.
+```
+var isSubseq = function(str1, str2) {   // return true if str1 is subsequence of str2
+    var l = str1.length;
+    var n = 0;
+    for (var i = 0; i < str2.length; i++) {
+        if (n < l && str1[n] == str2[i])   n++;
+    }
+    return n == l;
+} 
+
+var findLUSlength = function(strs) {
+    var arr = strs.sort(function(a,b) {
+        return b.length - a.length;
+    });
+    
+    var len = arr.length;
+    loop:
+    for (var i = 0, j; i < len; i++) {
+        var cur = arr[i];
+        for (j = 0; j < len; j++) {
+            if (i == j)  continue;
+            if (isSubseq(cur, arr[j]))  continue loop;
+        }
+        return cur.length;
+    }
+    return -1;
 };
 ```
