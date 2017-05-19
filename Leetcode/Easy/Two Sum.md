@@ -1,4 +1,4 @@
-## 1. Two Sum
+## [1. Two Sum](https://leetcode.com/problems/two-sum/#/description)
 ### Problem Description
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -49,6 +49,14 @@ var twoSum = function(nums, target) {
     return res;
 }
 ```
+
+## [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)
+
+## [15. 3Sum](https://leetcode.com/problems/3sum/#/description)
+
+## [18. 4Sum](https://leetcode.com/problems/4sum/#/description)
+
+## [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/#/description)
 
 ## Knowledge Used
 #### [Javascript built-in objects : Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
