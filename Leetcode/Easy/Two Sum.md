@@ -51,6 +51,29 @@ var twoSum = function(nums, target) {
 ```
 
 ## [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)
+### Problem Description
+Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+You may **assume** that each input would have _exactly_ one solution and you may _not use the same element twice_.
+```
+Input: numbers={2, 7, 11, 15}, target=9
+Output: index1=1, index2=2
+```
+
+### Solution
+```
+var twoSum = function(numbers, target) {
+    let i=0,j=numbers.length-1;
+    while(numbers[i]+numbers[j]!==target){
+        if(numbers[i]+numbers[j]>target) j--;
+        else if(numbers[i]+numbers[j]<target) i++;
+        
+    }
+    return [i+1,j+1];
+}
+```
 
 ## [15. 3Sum](https://leetcode.com/problems/3sum/#/description)
 
