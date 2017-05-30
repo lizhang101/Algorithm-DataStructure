@@ -26,3 +26,14 @@ http://www.geeksforgeeks.org/fundamentals-of-algorithms/
 
 - CC Interview
 https://github.com/careercup/CtCI-6th-Edition
+
+  Must-have knowledge:
+  
+  Data Structures | Algorithms | Concepts
+  --------------- | ---------- | ---------------------
+  Linked Lists | Breadth-First Search | Bit Manipulation
+  Trees, Tries, & Graphs | Depth-First Search | Memory (Stack vs. Heap)
+  Stacks & Queues | Binary Search | Recursion
+  Heaps | Merge Sort | Dynamic Programming
+  Vectors / ArrayLists | QuickSort | Big O Time & Space
+  Hash Tables |  |
