@@ -2,8 +2,8 @@ Java language learning.
 ### [Java Tutorial](https://www.tutorialspoint.com/java/index.htm)
 
 
-# Basic data types
-## Primitive Data Types
+# 1. Basic data types
+## 1.1 Primitive Data Types
 
   type | definition | min value | max value | default value | main usage
   ---- | ---------- | --------- | --------- | ------------- | ------------------
@@ -16,14 +16,14 @@ Java language learning.
   boolean | represents one bit of information, true / false |  |  | false | used for simple flags that track true/false conditions
   char | single 16-bit Unicode character | '\u0000' (or 0) | '\uffff' (or 65,535 inclusive) |  | used to store any character
   
-## Reference/Object Data Types
+## 1.2 Reference/Object Data Types
 - Class objects and various type of array variables come under reference datatype.
 - Default value of any reference variable is null.
 - Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed. For example, Employee, Puppy, etc.
 - A reference variable can be used to refer any object of the declared type or any compatible type.
 
 
-# Variable types
+# 2. Variable types
 - [details](https://www.tutorialspoint.com/java/java_variable_types.htm)
 
   type | definition | memory locatoin
@@ -32,7 +32,7 @@ Java language learning.
   Instance variables | Variables within a class but outside any method. These variables are initialized when the class is instantiated. Instance variables can be accessed from inside any method, constructor or blocks of that particular class. | heap
   Class/Static variables | Variables declared within a class, outside any method, with the **static** keyword. | static memory
 
-# Modifier Types
+# 3. Modifier Types
 - Modifiers are keywords that you add to those definitions to change their meanings.
 - To use a modifier, you include its keyword in the definition of a class, method, or variable. The modifier precedes the rest of the statement.
 - Java language has a wide variety of modifiers, including
