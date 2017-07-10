@@ -36,7 +36,7 @@ Java language learning.
 - Modifiers are keywords that you add to those definitions to change their meanings.
 - To use a modifier, you include its keyword in the definition of a class, method, or variable. The modifier precedes the rest of the statement.
 - Java language has a wide variety of modifiers, including
-  - [Access Modifiers](https://www.tutorialspoint.com/java/java_access_modifiers.htm)
+  - **[Access Modifiers](https://www.tutorialspoint.com/java/java_access_modifiers.htm)**
     
     Java provides a number of access modifiers to set access levels for classes, variables, methods and constructors.
     - Visible to the package, the default. No modifiers are needed.
@@ -44,7 +44,7 @@ Java language learning.
     - Visible to the world (public).
     - Visible to the package and all subclasses (protected).
     
-  - [Non Access Modifiers](https://www.tutorialspoint.com/java/java_nonaccess_modifiers.htm)
+  - **[Non Access Modifiers](https://www.tutorialspoint.com/java/java_nonaccess_modifiers.htm)**
   
     Java provides a number of non-access modifiers to achieve many other functionality.
 
@@ -54,8 +54,10 @@ Java language learning.
     - The _**synchronized**_ and _**volatile**_ modifiers, which are used for threads.
 
 # Basic concepts
-## Classes : A class is a template/blueprint for object.
-## Objects : An object is an instance of a class.
+## Classes
+  A class is a template/blueprint for object.
+## Objects
+  An object is an instance of a class.
 ## Instance
 ## Method
 ## Message Parsing
@@ -64,18 +66,3 @@ Java language learning.
 ## Inheritance
 ## Encapsulation
 ## Abstraction
-
-
-### Variable types in class
-
-
-  
-### Constructor
-
-- Every class has a constructor. If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
-- A class can have more than one constructor. Each time a new object is created, at least one constructor will be invoked.
-- The main rule of constructors is that they should have the same name as the class.
-  
-  
-
-
