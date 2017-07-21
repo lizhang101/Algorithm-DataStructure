@@ -6,3 +6,7 @@ Java language learning.
 # 1. Basics 
 # 2. Java Collections Framework
 - [tutorial](http://beginnersbook.com/java-collections-tutorials/)
+
+![Java collections](JAVA-collections.jpg)
+
+![Java collections 2](Java_collections.JPG)
