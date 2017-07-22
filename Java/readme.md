@@ -67,6 +67,11 @@ Java language learning.
 - method overloading
 
 ### Array and ArrayList
+- declare an array w/o initialization
+  ```
+  int[] arr0 = new int[10];
+  int[] arr1 = {1,2,3,4,5,6,7};
+  ```
 
 # 2. Java Collections Framework
 - [tutorial](http://beginnersbook.com/java-collections-tutorials/)
