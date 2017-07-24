@@ -73,6 +73,19 @@ Java language learning.
   int[] arr1 = {1,2,3,4,5,6,7};
   ```
 
+- Enhanced _**for**_ loop
+  ```
+  int[] arr = {3,1,5,8,2,9,7,6,4};
+  int total = 0;
+  for (int num : arr) {
+    total += num;
+  }
+  System.out.printf("Total of array elements : %d%n", total);
+  ```
+  
+- java.util.Arrays
+- java.util.ArrayList
+
 # 2. Java Collections Framework
 - [tutorial](http://beginnersbook.com/java-collections-tutorials/)
 
