@@ -2,6 +2,18 @@ Java language learning.
 ### tutorials point [Java Tutorial](https://www.tutorialspoint.com/java/index.htm)
 ### javatpoint [Java Tutorial](https://www.javatpoint.com/java-tutorial)
 
+# QA
+- [Difference between add() and offer() methods of Queue interface](https://stackoverflow.com/questions/20526910/difference-between-add-and-offer-methods-of-queue-interface)
+  ```
+  Queue.add - throws an exception if the operation fails,
+  Queue.offer - returns a special value (either null or false, depending on the operation).
+  ```
+- [Queue remove vs poll](https://stackoverflow.com/questions/2193450/why-java-provides-two-methods-to-remove-element-from-queue)
+  ```
+  The remove() and poll() methods differ only in their behavior when the queue is empty:
+  the remove() method throws an exception, 
+  while the poll() method returns null
+  ```
 
 # 1. Basics 
 ### local variable VS. instance variable
