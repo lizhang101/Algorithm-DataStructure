@@ -151,14 +151,6 @@ class Solution {
 }
 ```
 
-# 666	Path Sum IV - M, locked
-
-# [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) - M
-
-Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
-
-Note: You can only move either down or right at any point in time.
-
 # [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) - M
 
 Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
@@ -193,7 +185,7 @@ class Solution {
 }
 ```
 
-# [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) - M
+# [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) - H
 
 Given a binary tree, find the maximum path sum.
 
@@ -230,3 +222,33 @@ class Solution {
     }
 }
 ```
+
+# [120. Triangle](https://leetcode.com/problems/triangle/description/) - M
+
+Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+
+For example, given the following triangle
+```
+[
+     [2],
+    [3,4],
+   [6,5,7],
+  [4,1,8,3]
+]
+```
+The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
+
+Note:
+Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.
+
+
+
+
+# [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) - M
+
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+
+Note: You can only move either down or right at any point in time.
+
+
+# 666.	Path Sum IV - M, locked
