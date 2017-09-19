@@ -150,3 +150,83 @@ class Solution {
     }
 }
 ```
+
+# 666	Path Sum IV - M, locked
+
+# [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) - M
+
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+
+Note: You can only move either down or right at any point in time.
+
+# [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) - M
+
+Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
+
+An example is the root-to-leaf path 1->2->3 which represents the number 123.
+
+Find the total sum of all root-to-leaf numbers.
+
+For example,
+```
+    1
+   / \
+  2   3
+```  
+The root-to-leaf path 1->2 represents the number 12.
+The root-to-leaf path 1->3 represents the number 13.
+
+Return the sum = 12 + 13 = 25.
+
+Solution:
+```
+class Solution {
+    public int sumNumbers(TreeNode root) {
+        return sumDown(root, 0);        
+    }
+    private int sumDown(TreeNode node, int preSum) {
+        if (node == null)   return 0;
+        int sum = preSum * 10 + node.val;
+        if (node.left == null && node.right == null)  return sum;
+        return sumDown(node.left, sum) + sumDown(node.right, sum);
+    }
+}
+```
+
+# [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) - M
+
+Given a binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+
+For example:
+Given the below binary tree,
+```
+       1
+      / \
+     2   3
+```     
+Return 6.
+
+Solution:
+For each node, its maxChildPath is either left branch or right branch (not sub-tree) or itself.
+We also should calculate the maxPathSum of each node (put in variable max, should be one of cur/cur+left/cur+right/cur+left+right).
+
+```
+class Solution {
+    int max = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root) {
+        maxChildPath(root);
+        return max;
+    }
+    private int maxChildPath(TreeNode node) {
+        if (node == null)   return 0;
+        
+        int cur = node.val;
+        int left = Math.max(maxChildPath(node.left), 0);
+        int right = Math.max(maxChildPath(node.right), 0);
+        max = Math.max(max, cur + left + right);
+        return Math.max(cur, cur + Math.max(left, right));
+    }
+}
+```
