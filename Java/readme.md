@@ -104,3 +104,16 @@ Java language learning.
 ![Java collections](JAVA-collections.jpg)
 
 ![Java collections 2](Java_collections.JPG)
+
+## Queue
+### basic operations
+
+ Operation | Throws exception | Returns special value
+ --------- | ---------------- | -----------------------
+ inserts the element e to the tail of the queue. | add(E e): If there is no space available because of capacity restrictions, IllegalStateException is thrown. | offer(E e): If the insertion is successful the method returns true, otherwise it returns false. Generally, if there are capacity bounds, it is preferred to use add method instead.
+ removes and returns the head (the first element) of the queue. | remove(): throw NoSuchElementException if the queue is empty. | poll(): returns null when the queue is empty.
+ returns the head of the queue, without removing it. | element(): throw NoSuchElementException if the queue is empty. | peek(): return null is the queue is empty.
+
+## [LinkedList](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
+
+
