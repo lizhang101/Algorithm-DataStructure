@@ -115,5 +115,18 @@ Java language learning.
  returns the head of the queue, without removing it. | element(): throw NoSuchElementException if the queue is empty. | peek(): return null is the queue is empty.
 
 ## [LinkedList](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
+`LinkedList<T> llist  = new LinkedList<T>();`
+
+## [ArrayList](https://beginnersbook.com/2013/12/java-arraylist/)
+`ArrayList<T> obj = new ArrayList<T>();`
+
+## [ArrayList VS. LinkedList](https://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/)
+
+Operation | performance    ArrayList  :   LinkedList
+--------- | -------------------------------------------
+Search : get(int index) |  O(1)  :  O(n)
+Deletion : remove(int index) | O(n)/O(1)  :  O(1)
+Inserts : add(int index) |  O(n)/O(1)  :  O(1)
+
 
 
