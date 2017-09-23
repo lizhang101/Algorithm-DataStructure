@@ -1,6 +1,7 @@
 Java language learning.
 ### tutorials point [Java Tutorial](https://www.tutorialspoint.com/java/index.htm)
 ### javatpoint [Java Tutorial](https://www.javatpoint.com/java-tutorial)
+### javatutorialhq [Java Tutorial](http://javatutorialhq.com/java/)
 
 # QA
 - [Difference between add() and offer() methods of Queue interface](https://stackoverflow.com/questions/20526910/difference-between-add-and-offer-methods-of-queue-interface)
@@ -128,5 +129,39 @@ Search : get(int index) |  O(1)  :  O(n)
 Deletion : remove(int index) | O(n)/O(1)  :  O(1)
 Inserts : add(int index) |  O(n)/O(1)  :  O(1)
 
+## [HashMap](http://javatutorialhq.com/java/util/hashmap-class/)
+- iterate hashmap
+```
+Map<String, Integer> items = new HashMap<>();
+items.put("A", 10);
+items.put("B", 20);
+items.put("C", 30);
+items.put("D", 40);
+items.put("E", 50);
+items.put("F", 60);
 
+for (Map.Entry<String, Integer> entry : items.entrySet()) {
+	System.out.println("Item : " + entry.getKey() + " Count : " + entry.getValue());
+}
+```
+
+In Java 8, you can loop a Map with forEach + lambda expression.
+```
+Map<String, Integer> items = new HashMap<>();
+items.put("A", 10);
+items.put("B", 20);
+items.put("C", 30);
+items.put("D", 40);
+items.put("E", 50);
+items.put("F", 60);
+
+items.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
+
+items.forEach((k,v)->{
+	System.out.println("Item : " + k + " Count : " + v);
+	if("E".equals(k)){
+		System.out.println("Hello E");
+	}
+});
+```
 
