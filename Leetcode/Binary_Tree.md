@@ -68,3 +68,56 @@ class Solution {
 }
 ```
 
+# [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)
+
+## Description
+One way to serialize a binary tree is to use pre-order traversal. When we encounter a non-null node, we record the node's value. If it is a null node, we record using a sentinel value such as #.
+```
+     _9_
+    /   \
+   3     2
+  / \   / \
+ 4   1  #  6
+/ \ / \   / \
+# # # #   # #
+```
+For example, the above binary tree can be serialized to the string "9,3,4,#,#,1,#,#,2,#,6,#,#", where # represents a null node.
+
+Given a string of comma separated values, verify whether it is a correct preorder traversal serialization of a binary tree. Find an algorithm without reconstructing the tree.
+
+Each comma separated value in the string must be either an integer or a character '#' representing null pointer.
+
+You may assume that the input format is always valid, for example it could never contain two consecutive commas such as "1,,3".
+
+Example 1:
+"9,3,4,#,#,1,#,#,2,#,6,#,#"
+Return _true_
+
+Example 2:
+"1,#"
+Return _false_
+
+Example 3:
+"9,#,#,1"
+Return _false_
+
+## solution
+### brute force
+Each leaf is represented as "number, #, #". We scan the character array from left to right, and use a stack to maintain characters. When we meet a "#", then check if it's previous character is also a "#", if yes, then pop twice and check again. As long as the prev char is "#", keep pop twice. If not, push one "#", which means we use a null to replace the leaf node. When we done the array traverse, if the stack length is 1 and only contains a "#", return true.
+![stack-solution](Preorder-Serialization.jpg)
+```
+class Solution {
+    public boolean isValidSerialization(String preorder) {
+        Stack<String>  chars = new Stack();
+        for (String c : preorder.split(",")) {
+            while (c.equals("#") && !chars.isEmpty() && chars.peek().equals(c)) {
+                chars.pop();
+                if (chars.isEmpty())    return false;
+                chars.pop();
+            }
+            chars.push(c);
+        }
+        return chars.size() == 1 && chars.peek().equals("#");
+    }
+}
+```
