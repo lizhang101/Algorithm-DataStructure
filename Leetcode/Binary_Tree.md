@@ -52,5 +52,19 @@ class Solution {
 ```
 
 ### recursive flatten (bottom->up, right->left)
-
+![recursive flatten](flatten_tree.jpg)
+_**reverse pre-Order**_
+```
+class Solution {
+    private TreeNode prev = null;
+    public void flatten(TreeNode root) {
+        if(root == null) return;
+        flatten(root.right);
+        flatten(root.left);
+        root.right = prev;
+        root.left = null;
+        prev = root;
+    } 
+}
+```
 
