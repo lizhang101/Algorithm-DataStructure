@@ -106,7 +106,7 @@ Java language learning.
 
 ![Java collections 2](Java_collections.JPG)
 
-## Queue
+## [Queue](https://beginnersbook.com/2017/08/queue-interface-in-java-collections/)
 ### basic operations
 
  Operation | Throws exception | Returns special value
