@@ -52,7 +52,7 @@ class Solution {
 ```
 
 ### recursive flatten (bottom->up, right->left)
-![recursive flatten](flatten_tree.jpg)
+![recursive flatten](flatten_tree0.jpg)
 _**reverse pre-Order**_
 ```
 class Solution {
