@@ -121,3 +121,26 @@ class Solution {
     }
 }
 ```
+
+### indegree and outdegree
+In a binary tree, 
+- root node provide 0 indegree and 2 outdegree (no parent and 2 children)
+- all non-null/non-root node provides 1 indegree and 2 outdegree (1 parent and 2 children)
+- all null node provides 1 indegree and 0 outdegree (1 parent and 0 child)
+
+Suppose we try to build this tree. During building, we record the difference between out degree and in degree diff = outdegree - indegree. When the next node comes, we then decrease diff by 1, because the node provides an in degree. If the node is not null, we increase diff by 2, because it provides two out degrees. If a serialization is correct, diff should never be negative and diff will be zero when finished.
+
+Because the first node is root and it has no indegree, so we initialize diff = 1 and after -- the indegree is 0, it's called compensation.
+
+```
+class Solution {
+    public boolean isValidSerialization(String preorder) {
+        int diff = 1;
+        for (String node: preorder.split(",")) {
+            if (--diff < 0) return false;
+            if (!node.equals("#")) diff += 2;
+        }
+        return diff == 0;
+    }
+}
+```
