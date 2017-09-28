@@ -118,6 +118,20 @@ Java language learning.
 ## [LinkedList](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
 `LinkedList<T> llist  = new LinkedList<T>();`
 
+- [LinkedList to array](https://beginnersbook.com/2014/07/how-to-convert-linkedlist-to-array-using-toarray-in-java/)
+```
+    //Creating and populating LinkedList
+    LinkedList<String> linkedlist = new LinkedList<String>();
+    linkedlist.add("Harry");
+    linkedlist.add("Maddy");
+    linkedlist.add("Chetan");
+    linkedlist.add("Chauhan");
+    linkedlist.add("Singh");
+
+    //Converting LinkedList to Array
+    String[] array = linkedlist.toArray(new String[linkedlist.size()]);
+```
+
 ## [ArrayList](https://beginnersbook.com/2013/12/java-arraylist/)
 `ArrayList<T> obj = new ArrayList<T>();`
 
