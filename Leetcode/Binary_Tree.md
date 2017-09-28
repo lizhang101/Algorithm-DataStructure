@@ -51,7 +51,7 @@ class Solution {
 }
 ```
 
-### recursive flatten (bottom->up, right->left)
+### In-place flatten (recursive: bottom->up, right->left)
 ![recursive flatten](flatten_tree0.jpg)
 _**reverse pre-Order**_
 ```
@@ -144,6 +144,53 @@ class Solution {
     }
 }
 ```
+
+# [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+## Description
+Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
+
+For example:
+Given binary tree [3,9,20,null,null,15,7],
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```   
+return its zigzag level order traversal as:
+```
+[
+  [3],
+  [20,9],
+  [15,7]
+]
+```
+## Solution
+Learn usage of List of List, add()/add(i).
+```
+class Solution {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>>  res = new ArrayList<List<Integer>>();
+        traverse(root, 0, res);
+        return res;
+    }
+    private void traverse(TreeNode node, int level, List<List<Integer>> list) {
+        if (node == null)   return;
+        if (list.size() <= level)    list.add(new LinkedList<Integer>());
+        List<Integer>  curList = list.get(level);
+        if (level%2 == 0)  {
+            curList.add(node.val);
+        } else {
+            curList.add(0, node.val);
+        }
+        traverse(node.left, level + 1, list);
+        traverse(node.right, level + 1, list);
+    }
+}
+```
+
+# [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
 
 
 # [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)
