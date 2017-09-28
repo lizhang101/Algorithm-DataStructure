@@ -120,20 +120,30 @@ Java language learning.
 
 - [LinkedList to array](https://beginnersbook.com/2014/07/how-to-convert-linkedlist-to-array-using-toarray-in-java/)
 ```
-    //Creating and populating LinkedList
-    LinkedList<String> linkedlist = new LinkedList<String>();
-    linkedlist.add("Harry");
-    linkedlist.add("Maddy");
-    linkedlist.add("Chetan");
-    linkedlist.add("Chauhan");
-    linkedlist.add("Singh");
+  //Creating and populating LinkedList
+  LinkedList<String> linkedlist = new LinkedList<String>();
+  linkedlist.add("Harry");
+  linkedlist.add("Maddy");
+  linkedlist.add("Chetan");
+  linkedlist.add("Chauhan");
+  linkedlist.add("Singh");
 
-    //Converting LinkedList to Array
-    String[] array = linkedlist.toArray(new String[linkedlist.size()]);
+  //Converting LinkedList to Array
+  String[] array = linkedlist.toArray(new String[linkedlist.size()]);
 ```
 
 ## [ArrayList](https://beginnersbook.com/2013/12/java-arraylist/)
 `ArrayList<T> obj = new ArrayList<T>();`
+- [ArrayList to Array](http://www.geeksforgeeks.org/arraylist-array-conversion-java-toarray-methods/)
+```
+  List<Integer> al = new ArrayList<Integer>();
+  al.add(10);
+  al.add(20);
+  al.add(30);
+  al.add(40);
+
+  Integer[] arr = al.toArray(new Integer[al.size()]);
+```
 
 ## [ArrayList VS. LinkedList](https://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/)
 
