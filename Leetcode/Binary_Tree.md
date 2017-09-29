@@ -262,7 +262,8 @@ class Solution {
 }
 ```
 
-- Iterative
+- [Iterative way](https://discuss.leetcode.com/topic/795/the-iterative-solution-is-easier-than-you-think)
+  Keep making the tree by adding nodes to the left of the previous node, until the value matches the inorder.
 ```
 class Solution {
     int in = 0;
