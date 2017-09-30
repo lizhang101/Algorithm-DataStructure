@@ -189,3 +189,18 @@ items.forEach((k,v)->{
 });
 ```
 
+## [Dequeue](http://www.geeksforgeeks.org/deque-interface-java-example/)
+Methods of deque:
+
+- add(element): Adds an element to the tail.
+- addFirst(element): Adds an element to the head.
+- addLast(element): Adds an element to the tail.
+- offer(element): Adds an element to the tail and returns a boolean to explain if the insertion was successful.
+- offerFirst(element): Adds an element to the head and returns a boolean to explain if the insertion was successful.
+- offerLast(element): Adds an element to the tail and returns a boolean to explain if the insertion was successful.
+- iterator(): Returna an iterator for this deque.
+- descendingIterator(): Returns an iterator that has the reverse order for this deque.
+- push(element): Adds an element to the head.
+- pop(element): Removes an element from the head and returns it.
+- removeFirst(): Removes the element at the head.
+- removeLast(): Removes the element at the tail.
