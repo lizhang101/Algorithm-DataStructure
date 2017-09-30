@@ -263,6 +263,7 @@ class Solution {
 ```
 
 - [Iterative way](https://discuss.leetcode.com/topic/795/the-iterative-solution-is-easier-than-you-think)
+
   Keep making the tree by adding nodes to the left of the previous node, until the value matches the inorder.
 ```
 class Solution {
@@ -322,6 +323,7 @@ class Solution {
 ```
 
 - Iterative
+
   Keep making the tree by adding nodes to the right of the previous node, until the value matches the inorder.
 ```
 class Solution {
