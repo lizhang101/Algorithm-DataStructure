@@ -359,7 +359,49 @@ class Solution {
 - [Python](https://discuss.leetcode.com/topic/34258/iterative-method-to-do-three-kinds-of-traversal-just-like-recursive-method-only-changing-one-line-code)
 
 ## [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+### Solution
+```
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode p = root;
+        while(!stack.isEmpty() || p != null) {
+            if(p != null) {
+                stack.push(p);
+                p = p.left;
+            } else {
+                TreeNode node = stack.pop();
+                result.add(node.val);  // Add after all left children
+                p = node.right;   
+            }
+        }
+        return result;
+    }
+}
+```
 ## [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+### Solution
+```
+class Solution {
+	public List<Integer> preorderTraversal(TreeNode root) {
+		List<Integer> result = new ArrayList<>();
+		Deque<TreeNode> stack = new ArrayDeque<>();
+		TreeNode p = root;
+		while(!stack.isEmpty() || p != null) {
+			if(p != null) {
+				stack.push(p);
+				result.add(p.val);  // Add before going to children
+				p = p.left;
+			} else {
+				TreeNode node = stack.pop();
+				p = node.right;   
+			}
+		}
+		return result;
+	}
+}	
+```
 ## [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 
 ---
