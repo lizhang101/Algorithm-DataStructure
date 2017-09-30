@@ -360,20 +360,21 @@ class Solution {
 
 ## [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 ### Solution
+- [video tutorial](https://www.youtube.com/watch?v=nzmtCFNae9k)
 ```
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        Deque<TreeNode> stack = new ArrayDeque<>();
-        TreeNode p = root;
-        while(!stack.isEmpty() || p != null) {
-            if(p != null) {
-                stack.push(p);
-                p = p.left;
+        Stack<TreeNode>  ns = new Stack<TreeNode>();
+        while (true)  {
+            if (root != null)  {
+                ns.push(root);
+                root = root.left;
             } else {
-                TreeNode node = stack.pop();
-                result.add(node.val);  // Add after all left children
-                p = node.right;   
+                if(ns.empty())   break;
+                root = ns.pop();
+                result.add(root.val);
+                root = root.right;
             }
         }
         return result;
@@ -381,6 +382,7 @@ class Solution {
 }
 ```
 ## [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+- [video tutorial](https://www.youtube.com/watch?v=elQcrJrfObg)
 ### Solution
 ```
 class Solution {
@@ -400,10 +402,48 @@ class Solution {
 		}
 		return result;
 	}
-}	
+}
+
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Stack<TreeNode>  ns = new Stack<TreeNode>();
+        if (root == null)   return result;
+        ns.push(root);
+        while (!ns.empty()) {
+            root = ns.pop();
+            result.add(root.val);
+            if (root.right != null)   ns.push(root.right);
+            if (root.left != null)    ns.push(root.left);
+        }
+        return result;
+    }
+}
 ```
 ## [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
-
+- two stacks [video tutorial](https://www.youtube.com/watch?v=qT65HltK2uE)
+- one stack [video tutorial](https://www.youtube.com/watch?v=xLQKdq0Ffjg)
+![post order traverse](postOrder_traversal.png)
+### Solution
+```
+// reverse pre-Order solution
+public List<Integer> postorderTraversal(TreeNode root) {
+    LinkedList<Integer> result = new LinkedList<>();
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    TreeNode p = root;
+    while(!stack.isEmpty() || p != null) {
+        if(p != null) {
+            stack.push(p);
+            result.addFirst(p.val);  // Reverse the process of preorder
+            p = p.right;             // Reverse the process of preorder
+        } else {
+            TreeNode node = stack.pop();
+            p = node.left;           // Reverse the process of preorder
+        }
+    }
+    return result;
+}
+```
 ---
 
 # [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
