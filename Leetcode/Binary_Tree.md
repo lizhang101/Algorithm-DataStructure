@@ -350,6 +350,16 @@ class Solution {
 }
 ```
 ---
+# Preorder, Inorder, and Postorder _Iteratively_ Traversal Summarization
+## Reference
+- [Java](https://discuss.leetcode.com/topic/30632/preorder-inorder-and-postorder-iteratively-summarization)
+- [Python](https://discuss.leetcode.com/topic/34258/iterative-method-to-do-three-kinds-of-traversal-just-like-recursive-method-only-changing-one-line-code)
+
+## [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+## [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+## [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
+
+---
 
 # [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
 
