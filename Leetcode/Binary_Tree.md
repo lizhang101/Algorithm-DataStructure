@@ -1,3 +1,6 @@
+# Summary
+- binary tree traversal, recursively and iteratively, dfs(preOrder, inOrder, postOrder) and bfs(level order).
+---
 # [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)
 
 ## Description
