@@ -294,7 +294,59 @@ Given inorder and postorder traversal of a tree, construct the binary tree.
 Note:
 You may assume that duplicates do not exist in the tree.
 
+### Solution
+- Recursive
+```
+class Solution {
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        return buildSubtree(postorder.length-1, 0, inorder.length-1, postorder, inorder);
+    }
+    private TreeNode buildSubtree(int preIdx, int inStart, int inEnd, int[] postorder, int[] inorder) {
+        if (preIdx < 0 || inStart > inEnd) {
+            return null;
+        }
+        
+        TreeNode node = new TreeNode(postorder[preIdx]);
+        int inIdx = 0;
+        for (int i = inStart; i <= inEnd; i++) {
+            if (inorder[i] == node.val)   {
+                inIdx = i;
+                break;
+            }
+        }
+        node.right = buildSubtree(preIdx-1, inIdx+1, inEnd, postorder, inorder);
+        node.left = buildSubtree(preIdx-(inEnd-inIdx+1), inStart, inIdx-1, postorder, inorder);
+        return node;
+    }
+}
+```
 
+- Iterative
+  Keep making the tree by adding nodes to the right of the previous node, until the value matches the inorder.
+```
+class Solution {
+    int in = 0;
+    int pre = 0;
+    
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        in = pre = inorder.length - 1;
+        return aux(inorder, postorder, Integer.MAX_VALUE);
+    }
+    
+    private TreeNode aux(int[] inorder, int[] postorder, int border) {
+        if (in < 0 || pre < 0 || inorder[in] == border) {
+            return null;
+        }
+        
+        TreeNode root = new TreeNode(postorder[pre--]);
+        root.right = aux(inorder, postorder, root.val);
+        in--;
+        root.left = aux(inorder, postorder, border);
+        
+        return root;
+    }
+}
+```
 ---
 
 # [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
