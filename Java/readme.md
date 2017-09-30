@@ -118,6 +118,18 @@ Java language learning.
 ## [LinkedList](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
 `LinkedList<T> llist  = new LinkedList<T>();`
 
+- Methods of LinkedList:
+	- **boolean add(Object element)** : It appends the element to the end of the list.
+	- **void add(int index, Object element)**: It inserts the element at the position ‘index’ in the list.
+	- **void addFirst(Object element)** : It inserts the element at the beginning of the list.
+	- **void addLast(Object element)** : It appends the element at the end of the list.
+	- **boolean contains(Object element)** : It returns true if the element is present in the list.
+	- **Object get(int index)** : It returns the element at the position ‘index’ in the list. It throws ‘IndexOutOfBoundsException’ if the index is out of range of the list.
+	- **int indexOf(Object element)** : If element is found, it returns the index of the first occurrence of the element. Else, it returns -1.
+	- **Object remove(int index)** : It removes the element at the position ‘index’ in this list. It throws ‘NoSuchElementException’ if the list is empty.
+	- **int size()** : It returns the number of elements in this list.
+	- **void clear()** : It removes all of the elements from the list.
+
 - [LinkedList to array](https://beginnersbook.com/2014/07/how-to-convert-linkedlist-to-array-using-toarray-in-java/)
 ```
   //Creating and populating LinkedList
