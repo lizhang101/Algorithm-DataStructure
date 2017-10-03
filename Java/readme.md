@@ -15,6 +15,16 @@ Java language learning.
   the remove() method throws an exception, 
   while the poll() method returns null
   ```
+  
+- [Java: How to split a String into an ArrayList](http://programming.guide/java/split-string-into-arraylist.html)  
+  ```
+	String s = "lorem,ipsum,dolor,sit,amet";
+	List<String> myList = new ArrayList<String>(Arrays.asList(s.split(",")));
+	
+	List<String> strings = Arrays.asList(new String[]{"one", "two", "three"});      // immutable
+	List<String> strings = 
+     new ArrayList<String>(Arrays.asList(new String[]{"one", "two", "three"}));   // mutable
+  ```
 
 # 1. Basics 
 ### local variable VS. instance variable
