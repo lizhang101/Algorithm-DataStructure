@@ -4,9 +4,10 @@
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-
+```
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
+```
 
 ### Solution
 ```
@@ -31,7 +32,7 @@ class Solution {
 }
 ```
 
-## [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)
+## [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) - medium
 
 ### Description
 You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
@@ -42,10 +43,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 What if you cannot modify the input lists? In other words, reversing the lists is not allowed.
 
 Example:
-
+```
 Input: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 8 -> 0 -> 7
-
+```
 
 ### Solution
 - reverse linkedlist, then add.
