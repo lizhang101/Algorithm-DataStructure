@@ -158,3 +158,26 @@ class Solution {
     }
 }
 ```
+
+## [148. Sort List](https://leetcode.com/problems/sort-list/description/)
+
+### Description
+Sort a linked list in O(n log n) time using constant space complexity.
+
+## [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
+
+### Description
+Sort a linked list using insertion sort.
+
+## [143. Reorder List](https://leetcode.com/problems/reorder-list/description/)
+
+### Description
+Given a singly linked list L: L0?L1?…?Ln-1?Ln,
+reorder it to: L0?Ln?L1?Ln-1?L2?Ln-2?…
+
+You must do this in-place without altering the nodes' values.
+
+For example,
+Given `{1,2,3,4}`, reorder it to `{1,4,2,3}`.
+
+
