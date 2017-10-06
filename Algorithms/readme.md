@@ -38,4 +38,6 @@ Dynamic programming approach is similar to divide and conquer in breaking down t
 
 Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be **re-used**. Mostly, these algorithms are used for optimization.
 
-
+## Backtracking
+- [Backtracking Algorithms](http://www.geeksforgeeks.org/backtracking-algorithms/)
+- [Backtracking Questions](http://www.geeksforgeeks.org/category/algorithm/backtracking/)
