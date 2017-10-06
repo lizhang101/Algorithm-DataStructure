@@ -107,6 +107,8 @@ Java language learning.
   ```
   
 - java.util.Arrays
+  - [Deep Understanding of Arrays.sort()](https://www.programcreek.com/2013/11/arrays-sort-comparator/)
+  - [Java Comparator Example](https://examples.javacodegeeks.com/core-java/util/comparator/java-comparator-example/)
 - java.util.ArrayList
 
 # 2. Java Collections Framework
