@@ -38,6 +38,25 @@ Dynamic programming approach is similar to divide and conquer in breaking down t
 
 Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be **re-used**. Mostly, these algorithms are used for optimization.
 
+- [Introduction To Dynamic Programming - Fibonacci Series](http://algorithms.tutorialhorizon.com/introduction-to-dynamic-programming-fibonacci-series/)
+
 ## Backtracking
+### What is Backtracking Programming??
+
+Recursion is the key in backtracking programming. As the name suggests we backtrack to find the solution. We start with one possible move out of many available moves and try to solve the problem if we are able to solve the problem with the selected move then we will print the solution else we will backtrack and select some other move and try to solve it. If none if the moves work out we will claim that there is no solution for the problem.
+
+### Generalized Algorithm:
+```
+Pick a starting point.
+while(Problem is not solved)
+	For each path from the starting point.
+		check if selected path is safe, if yes select it
+                and make recursive call to rest of the problem
+		If recursive calls returns true, then return true.
+		else undo the current move and return false.
+	End For
+	If none of the move works out, return false, NO SOLUTON.
+```
+
 - [Backtracking Algorithms](http://www.geeksforgeeks.org/backtracking-algorithms/)
 - [Backtracking Questions](http://www.geeksforgeeks.org/category/algorithm/backtracking/)
