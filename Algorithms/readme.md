@@ -58,5 +58,6 @@ while(Problem is not solved)
 	If none of the move works out, return false, NO SOLUTON.
 ```
 
+- [Introduction To Backtracking Programming](http://algorithms.tutorialhorizon.com/introduction-to-backtracking-programming/)
 - [Backtracking Algorithms](http://www.geeksforgeeks.org/backtracking-algorithms/)
 - [Backtracking Questions](http://www.geeksforgeeks.org/category/algorithm/backtracking/)
