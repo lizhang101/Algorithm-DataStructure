@@ -1,7 +1,7 @@
 # Question list
 
-number | title | 	Solution |	Acceptance |	Difficulty
------- | ----- | ---------- | ----------- | -------------
+number | title | Acceptance |	Difficulty
+------ | ----- | ---------- | ----------- 
 266	| [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) Locked | 57.1%	| Easy	
 409	| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome)   | 45.5% |	Easy	
 9	| [Palindrome Number](https://leetcode.com/problems/palindrome-number) | 35.5% |	Easy	
@@ -33,6 +33,30 @@ Example 2:
 Input: "aaa"
 Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+```
+
+### Solution
+Idea is start from each index and try to extend palindrome for both odd and even length.
+```
+class Solution {
+    public int countSubstrings(String s) {
+        if (s == null || s.length() == 0)   return 0;
+        int res = 0;
+        for (int i = 0; i < s.length(); i++) {
+            res += countPalindrome(s, i, i) + countPalindrome(s, i, i+1);
+        }
+        return res;
+    }
+    private int countPalindrome(String s, int l, int r) {
+        int count = 0;
+        while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r))  {
+            count++;
+            l--;
+            r++;
+        }
+        return count;
+    }
+}
 ```
 
 ## [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
