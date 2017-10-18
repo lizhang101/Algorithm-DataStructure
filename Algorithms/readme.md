@@ -39,6 +39,13 @@ Dynamic programming approach is similar to divide and conquer in breaking down t
 
 Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be **re-used**. Mostly, these algorithms are used for optimization.
 
+DP problems require you to spot the underlying subproblem so you can memoize or recurse through them. The key is to find the recurring subproblem.
+
+- CMU [dynamic programming](https://www.cs.cmu.edu/~avrim/451f09/lectures/lect1001.pdf)
+- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Dynamic Programming | Set 1 (Overlapping Subproblems Property)](http://www.geeksforgeeks.org/dynamic-programming-set-1/)
+- Read the _Dynamic programming chapter_ from _**Introduction to Algorithms**_ by Cormen...
+- Geekforgeeks [Dynamic Programming](http://www.geeksforgeeks.org/dynamic-programming/)
 - [Introduction To Dynamic Programming - Fibonacci Series](http://algorithms.tutorialhorizon.com/introduction-to-dynamic-programming-fibonacci-series/)
 
 ## Backtracking
