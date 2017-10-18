@@ -41,11 +41,15 @@ Dynamic programming is used where we have problems, which can be divided into si
 - [Introduction To Dynamic Programming - Fibonacci Series](http://algorithms.tutorialhorizon.com/introduction-to-dynamic-programming-fibonacci-series/)
 
 ## Backtracking
-### What is Backtracking Programming??
+### [Recursion](http://www.geeksforgeeks.org/recursion/)
+It is [recommended](https://www.quora.com/What-are-the-good-tutorials-for-learning-backtracking-algorithms-especially-for-the-beginners) to master Recursion before jumping on to BackTracking; especially those problems of recursion that do not have a recursive formula given.
+
+### Backtracking
+#### What is Backtracking Programming??
 
 Recursion is the key in backtracking programming. As the name suggests we backtrack to find the solution. We start with one possible move out of many available moves and try to solve the problem if we are able to solve the problem with the selected move then we will print the solution else we will backtrack and select some other move and try to solve it. If none if the moves work out we will claim that there is no solution for the problem.
 
-### Generalized Algorithm:
+#### Generalized Algorithm:
 ```
 Pick a starting point.
 while(Problem is not solved)
@@ -60,4 +64,12 @@ while(Problem is not solved)
 
 - [Introduction To Backtracking Programming](http://algorithms.tutorialhorizon.com/introduction-to-backtracking-programming/)
 - [Backtracking Algorithms](http://www.geeksforgeeks.org/backtracking-algorithms/)
-- [Backtracking Questions](http://www.geeksforgeeks.org/category/algorithm/backtracking/)
+
+#### [Backtracking Questions](http://www.geeksforgeeks.org/category/algorithm/backtracking/)
+- [Knight's Tour Problem](http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
+- [Maze Problem](http://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/)
+- [NQueens Problem](http://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
+- [Subset Sum](http://www.geeksforgeeks.org/backttracking-set-4-subset-sum/)
+- [mColoring Problem](http://www.geeksforgeeks.org/backttracking-set-5-m-coloring-problem/)
+- [Hamiltonian Cycle](http://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
+- [SudoKu](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
