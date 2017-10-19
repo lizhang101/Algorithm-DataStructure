@@ -19,6 +19,15 @@ High level idea: suppress constant factors and lower-order terms.
   ```
 
 ## [Recursion](http://www.geeksforgeeks.org/recursion/)
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
+
+In recursive program, the solution to base case is provided and solution of bigger problem is expressed in terms of smaller problems.
+
+Examples of such problems are Towers of [Hanoi (TOH)](http://quiz.geeksforgeeks.org/c-program-for-tower-of-hanoi/), [Inorder/Preorder/Postorder Tree Traversals](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/), [DFS of Graph](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/), etc.
+
+### direct recursion vs indirect recursion
+### tailed recursion vs non-tailed recursion
+### recursive programming vs iterative programming
 
 ## Greedy Algorithms
 In greedy algorithm approach, decisions are made from the given solution domain. As being greedy, the closest solution that seems to provide an optimum solution is chosen.
