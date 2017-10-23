@@ -50,6 +50,13 @@ Dynamic programming is used where we have problems, which can be divided into si
 
 DP problems require you to spot the underlying subproblem so you can memoize or recurse through them. The key is to find the recurring subproblem.
 
+### DP tutorials
+- MIT 6.006 [DP I](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19&t=1970s)
+- MIT 6.006 [DP II](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+- MIT 6.006 [DP III](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+- MIT 6.006 [DP IV](https://www.youtube.com/watch?v=tp4_UXaVyx8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=22)
+- MIT 6.046 [DP](https://www.youtube.com/watch?v=krZI60lKPek)
+
 - CMU [dynamic programming](https://www.cs.cmu.edu/~avrim/451f09/lectures/lect1001.pdf)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Dynamic Programming | Set 1 (Overlapping Subproblems Property)](http://www.geeksforgeeks.org/dynamic-programming-set-1/)
