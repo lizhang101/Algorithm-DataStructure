@@ -89,7 +89,7 @@ Java language learning.
     
 - method overloading
 
-### Character Class
+### [Character Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html)
 The [java.lang.Character class](https://www.tutorialspoint.com/java/lang/java_lang_character.htm) wraps a value of the primitive type char in an object. An object of type Character contains a single field whose type is char.
 - mainly used methods
 
@@ -103,7 +103,7 @@ The [java.lang.Character class](https://www.tutorialspoint.com/java/lang/java_la
   toUpperCase() | Returns the uppercase form of the specified char value.
   toLowerCase() | Returns the lowercase form of the specified char value.
   toString() | Returns a String object representing the specified character value that is, a one-character string.
-  getNumericValue() | returns the int value that the specified Unicode character represents.
+  getNumericValue() | returns the _int_ value that the specified Unicode character represents.
 
 ### Array and ArrayList
 - declare an array w/o initialization
