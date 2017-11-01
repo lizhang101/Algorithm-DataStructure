@@ -89,6 +89,22 @@ Java language learning.
     
 - method overloading
 
+### Character Class
+The [java.lang.Character class](https://www.tutorialspoint.com/java/lang/java_lang_character.htm) wraps a value of the primitive type char in an object. An object of type Character contains a single field whose type is char.
+- mainly used methods
+
+  Method | Description
+  ------ | --------------------
+  isLetter() | Determines whether the specified char value is a letter.
+  isDigit() | Determines whether the specified char value is a digit.
+  isWhitespace() | Determines whether the specified char value is white space.
+  isUpperCase() | Determines whether the specified char value is uppercase.
+  isLowerCase() | Determines whether the specified char value is lowercase.
+  toUpperCase() | Returns the uppercase form of the specified char value.
+  toLowerCase() | Returns the lowercase form of the specified char value.
+  toString() | Returns a String object representing the specified character value that is, a one-character string.
+  getNumericValue() | returns the int value that the specified Unicode character represents.
+
 ### Array and ArrayList
 - declare an array w/o initialization
   ```
