@@ -160,6 +160,29 @@ class Solution {
   List list1 = Arrays.asList(a);
   ```
 
+## [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)
+### Problem Description
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+```
+    For example, given array S = {-1 2 1 -4}, and target = 1.
+
+    The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+```
+
+## [3Sum Smaller](https://leetcode.com/problems/3sum-smaller) locked
+### Problem Description
+Given an array of n integers nums and a target, find the number of index triplets i, j, k with 0 <= i < j < k < n that satisfy the condition nums[i] + nums[j] + nums[k] < target.
+```
+For example, given nums = [-2, 0, 1, 3], and target = 2.
+
+Return 2. Because there are two triplets which sums are less than 2:
+
+[-2, 0, 1]
+[-2, 0, 3]
+```
+Follow up:
+Could you solve it in O(n^2) runtime?
+
 ## [18. 4Sum](https://leetcode.com/problems/4sum/#/description)
 
 ## [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/#/description)
