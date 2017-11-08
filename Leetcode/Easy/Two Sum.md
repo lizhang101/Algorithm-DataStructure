@@ -169,7 +169,7 @@ Given an array S of n integers, find three integers in S such that the sum is cl
     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ```
 
-## [3Sum Smaller](https://leetcode.com/problems/3sum-smaller) locked
+## [?. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller) locked
 ### Problem Description
 Given an array of n integers nums and a target, find the number of index triplets i, j, k with 0 <= i < j < k < n that satisfy the condition nums[i] + nums[j] + nums[k] < target.
 ```
@@ -182,6 +182,31 @@ Return 2. Because there are two triplets which sums are less than 2:
 ```
 Follow up:
 Could you solve it in O(n^2) runtime?
+
+### Solution
+Sort array + two pointers.
+```
+class Solution {
+    public int threeSumSmaller(int[] nums, int target) {
+        Arrays.sort(nums);
+        int i, j, k, t;
+        int res = 0;
+        for (i = 0; i < nums.length-2; i++) {
+          t = target - nums[i];
+          j = i + 1;
+          k = nums.length - 1;
+          while (j < k) {
+            if (nums[j] + nums[k] >= t)     k--;
+            else {
+              res += (k - j);
+              j++;
+            }
+          }
+        }
+        return res;
+    }
+}
+```
 
 ## [18. 4Sum](https://leetcode.com/problems/4sum/#/description)
 
