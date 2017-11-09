@@ -462,6 +462,36 @@ class Solution {
     }
 }
 ```
+### Java Knowledge
+- map.getOrDefault : The getOrDefault() method returns the value to which the specified key is mapped, 
+or defaultValue if this map contains no mapping for the key.
+
+	Syntax : `public V getOrDefault(Object key,V defaultValue)`
+
+	Example:
+	```
+	public class HashMapGetOrDefaultExample {
+
+		public static void main(String[] args) throws InterruptedException {
+
+			int idNum = 9756;
+			HashMap<Integer, String> map = init();
+			System.out.println("Student with id number " + idNum + " is "
+					+ map.getOrDefault(idNum, "John Doe"));
+
+		}
+
+		private static HashMap<Integer, String> init() {
+			// declare the hashmap
+			HashMap<Integer, String> mapStudent = new HashMap<>();
+			// put contents to our HashMap
+			mapStudent.put(73654, "Shyra Travis");
+			mapStudent.put(98712, "Sharon Wallace");
+			return mapStudent;
+		}
+
+	}
+	```
 
 ## [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/#/description)
 
