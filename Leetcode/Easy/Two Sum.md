@@ -530,6 +530,30 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
   }
 	```
   
+  run faster version:
+  ```
+  class Solution {
+    public int subarraySum(int[] nums, int k) {
+      int count = 0;
+      for (int i = 1; i < nums.length; i++) {
+        nums[i] += nums[i - 1];
+      }
+      HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+      map.put(0, 1);
+      for (int num : nums) {
+        if (map.containsKey(num - k)) {
+          int cur = map.get(num - k);
+          count += cur;
+        }            
+        //count += map.getOrDefault(num-k, 0);
+            
+        map.put(num, map.getOrDefault(num, 0) + 1);
+      }    
+      return count;
+    }
+  }
+  ```
+  
 ## [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 ### Problem Description
 Given a list of non-negative numbers and a target integer k, write a function to check if the array has a continuous subarray of size at least 2 that sums up to the multiple of k, that is, sums up to n*k where n is also an integer.
