@@ -18,35 +18,35 @@ Maintainance a map, store `(target - element) : element_index` for each element.
 
 ```
 var twoSum = function(nums, target) {
-    var l = nums.length;
-    var map = {};
-    for (var i = 0; i < l; i++) {
-        var cur = nums[i];
-        var tgt = target - cur;
-        var j = map[cur];
-        if (map[cur] !== undefined) {
-            return [j, i];
-        }
-        map[tgt] = i;   // store current element's target and current index
+  var l = nums.length;
+  var map = {};
+  for (var i = 0; i < l; i++) {
+    var cur = nums[i];
+    var tgt = target - cur;
+    var j = map[cur];
+    if (map[cur] !== undefined) {
+      return [j, i];
     }
-    return [];
+    map[tgt] = i;   // store current element's target and current index
+  }
+  return [];
 }
 ```
 
 Using Javascript built-in Map implement:
 ```
 var twoSum = function(nums, target) {
-    var myMap = new Map();
-    var res = [];
-    nums.some(function(val, index) {
-        var num = target - val;
-        if (myMap.has(val)) {
-            res = [myMap.get(val), index];
-            return true;
-        }
-        myMap.set(num, index);
-    });
-    return res;
+  var myMap = new Map();
+  var res = [];
+  nums.some(function(val, index) {
+    var num = target - val;
+    if (myMap.has(val)) {
+      res = [myMap.get(val), index];
+      return true;
+    }
+    myMap.set(num, index);
+  });
+  return res;
 }
 ```
 
@@ -65,13 +65,12 @@ Output: index1=1, index2=2
 ### Solution
 ```
 var twoSum = function(numbers, target) {
-    let i=0,j=numbers.length-1;
-    while(numbers[i]+numbers[j]!==target){
-        if(numbers[i]+numbers[j]>target) j--;
-        else if(numbers[i]+numbers[j]<target) i++;
-        
-    }
-    return [i+1,j+1];
+  let i=0,j=numbers.length-1;
+  while(numbers[i]+numbers[j]!==target){
+    if(numbers[i]+numbers[j]>target) j--;
+    else if(numbers[i]+numbers[j]<target) i++;
+  }
+  return [i+1,j+1];
 }
 ```
 
@@ -96,33 +95,33 @@ Basic Idea:
 - use two pointers method to fine two sum in the subarray which is right of ith element.
 ```
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length - 2; i++) {
-            if (nums[i] > 0)   break;
-            if (i > 0 && nums[i] == nums[i-1])   continue;    // skip same value
+  public List<List<Integer>> threeSum(int[] nums) {
+    List<List<Integer>> res = new ArrayList<>();
+    Arrays.sort(nums);
+    for (int i = 0; i < nums.length - 2; i++) {
+      if (nums[i] > 0)   break;
+      if (i > 0 && nums[i] == nums[i-1])   continue;    // skip same value
             
-            int target = -nums[i];
-            int j = i+1;
-            int k = nums.length-1;
-            while (j < k) {
-                int sum = nums[j] + nums[k];
-                if (sum == target) {
-                    res.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    j++;
-                    k--;
-                    while (j < k && nums[j] == nums[j-1])  j++;   // skip same value
-                    while (j < k && nums[k] == nums[k+1])  k--;   // skip same value
-                } else if (sum < target) {
-                    j++;                    
-                } else {
-                    k--;
-                }                
-            }
-        }
-        return res;
+      int target = -nums[i];
+      int j = i+1;
+      int k = nums.length-1;
+      while (j < k) {
+        int sum = nums[j] + nums[k];
+        if (sum == target) {
+          res.add(Arrays.asList(nums[i], nums[j], nums[k]));
+          j++;
+          k--;
+          while (j < k && nums[j] == nums[j-1])  j++;   // skip same value
+          while (j < k && nums[k] == nums[k+1])  k--;   // skip same value
+        } else if (sum < target) {
+          j++;                    
+        } else {
+          k--;
+        }                
+      }
     }
+    return res;
+  }
 }
 ```
 ### Java knowledge used
@@ -164,9 +163,9 @@ class Solution {
 ### Problem Description
 Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 ```
-    For example, given array S = {-1 2 1 -4}, and target = 1.
+  For example, given array S = {-1 2 1 -4}, and target = 1.
 
-    The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+  The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ```
 
 ### Solution
@@ -186,24 +185,24 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 - Code O(n^2)
 ```
   class Solution {
-      public int threeSumClosest(int[] nums, int target) {
-          Arrays.sort(nums);
+    public int threeSumClosest(int[] nums, int target) {
+      Arrays.sort(nums);
 
-          int ans = nums[0]+nums[1]+nums[2];
-          for (int i = 0; i < nums.length - 2; i++) {
-              int j = i + 1, k = nums.length -1;
-              while (j < k) {
-                  int sum = nums[i]+nums[j]+nums[k];
-                  if (Math.abs(target - ans) > Math.abs(target - sum)) {
-                      ans = sum;
-                      if (ans == target)    return ans;
-                  }
-                  if (sum > target)  k--;
-                  else j++;
-              }
+      int ans = nums[0]+nums[1]+nums[2];
+      for (int i = 0; i < nums.length - 2; i++) {
+        int j = i + 1, k = nums.length -1;
+        while (j < k) {
+          int sum = nums[i]+nums[j]+nums[k];
+          if (Math.abs(target - ans) > Math.abs(target - sum)) {
+            ans = sum;
+            if (ans == target)    return ans;
           }
-          return ans;
+          if (sum > target)  k--;
+          else j++;
+        }
       }
+      return ans;
+    }
   }
 ```
 
@@ -225,24 +224,24 @@ Could you solve it in O(n^2) runtime?
 Sort array + two pointers.
 ```
 class Solution {
-    public int threeSumSmaller(int[] nums, int target) {
-        Arrays.sort(nums);
-        int i, j, k, t;
-        int res = 0;
-        for (i = 0; i < nums.length-2; i++) {
-          t = target - nums[i];
-          j = i + 1;
-          k = nums.length - 1;
-          while (j < k) {
-            if (nums[j] + nums[k] >= t)     k--;
-            else {
-              res += (k - j);
-              j++;
-            }
-          }
+  public int threeSumSmaller(int[] nums, int target) {
+    Arrays.sort(nums);
+    int i, j, k, t;
+    int res = 0;
+    for (i = 0; i < nums.length-2; i++) {
+      t = target - nums[i];
+      j = i + 1;
+      k = nums.length - 1;
+      while (j < k) {
+        if (nums[j] + nums[k] >= t)     k--;
+        else {
+          res += (k - j);
+          j++;
         }
-        return res;
+      }
     }
+    return res;
+  }
 }
 ```
 
@@ -266,37 +265,39 @@ A solution set is:
 idea similiar to 3Sum and 2Sum, sort + two pointers.
 ```
 class Solution {
-    public List<List<Integer>> fourSum(int[] num, int target) {
+  public List<List<Integer>> fourSum(int[] num, int target) {
     ArrayList<List<Integer>> ans = new ArrayList<>();
-    if(num.length<4)return ans;
+    if(num.length<4)  return ans;
     Arrays.sort(num);
-    for(int i=0; i<num.length-3; i++){
-        //first candidate too large, search finished
-        if(num[i]+num[i+1]+num[i+2]+num[i+3]>target)  break; 
-	
-	//first candidate too small
-        if(num[i]+num[num.length-1]+num[num.length-2]+num[num.length-3]<target)   continue; 
-        if(i>0&&num[i]==num[i-1])continue; //prevents duplicate result in ans list
-        for(int j=i+1; j<num.length-2; j++){
-            if(num[i]+num[j]+num[j+1]+num[j+2]>target)break; //second candidate too large
-	    //second candidate too small
-            if(num[i]+num[j]+num[num.length-1]+num[num.length-2]<target)continue; 
-            if(j>i+1&&num[j]==num[j-1])continue; //prevents duplicate results in ans list
-            int low=j+1, high=num.length-1;
-            while(low<high){
-                int sum=num[i]+num[j]+num[low]+num[high];
-                if(sum==target){
-                    ans.add(Arrays.asList(num[i], num[j], num[low], num[high]));
-                    while(low<high&&num[low]==num[low+1])low++; //skipping over duplicate on low
-                    while(low<high&&num[high]==num[high-1])high--; //skipping over duplicate on high
-                    low++; 
-                    high--;
-                }
-                //move window
-                else if(sum<target)low++; 
-                else high--;
-            }
+    for(int i=0; i<num.length-3; i++) {
+      //first candidate too large, search finished
+      if(num[i]+num[i+1]+num[i+2]+num[i+3]>target)  break; 
+
+      //first candidate too small
+      if(num[i]+num[num.length-1]+num[num.length-2]+num[num.length-3]<target)   continue; 
+
+      if(i>0&&num[i]==num[i-1])continue; //prevents duplicate result in ans list
+      for(int j=i+1; j<num.length-2; j++){
+        if(num[i]+num[j]+num[j+1]+num[j+2]>target)  break; //second candidate too large
+
+        //second candidate too small
+        if(num[i]+num[j]+num[num.length-1]+num[num.length-2]<target)  continue; 
+        if(j>i+1&&num[j]==num[j-1])  continue; //prevents duplicate results in ans list
+        int low=j+1, high=num.length-1;
+        while (low<high) {
+          int sum = num[i]+num[j]+num[low]+num[high];
+          if (sum == target) {
+            ans.add(Arrays.asList(num[i], num[j], num[low], num[high]));
+            while (low<high&&num[low]==num[low+1])  low++; //skipping over duplicate on low
+            while (low<high&&num[high]==num[high-1])  high--; //skipping over duplicate on high
+            low++;
+            high--;
+          }
+          //move window
+          else if(sum<target)  low++; 
+          else high--;
         }
+      }
     }
     return ans;
   }
@@ -305,7 +306,7 @@ class Solution {
 Use threeSum and twoSum subfunction.
 ```
 class Solution {
-    public List<List<Integer>> fourSum(int[] nums, int target) {
+  public List<List<Integer>> fourSum(int[] nums, int target) {
 		ArrayList<List<Integer>> res = new ArrayList<List<Integer>>();
 		int len = nums.length;
 		if (nums == null || len < 4)
@@ -331,10 +332,8 @@ class Solution {
 					res.add(Arrays.asList(z, z, z, z));
 				break;
 			}
-
 			threeSumForFourSum(nums, target - z, i + 1, len - 1, res, z);
 		}
-
 		return res;
 	}
 
@@ -369,10 +368,8 @@ class Solution {
 					fourSumList.add(Arrays.asList(z1, z, z, z));
 				break;
 			}
-
 			twoSumForFourSum(nums, target - z, i + 1, high, fourSumList, z1, z);
 		}
-
 	}
 
 	/*
@@ -445,25 +442,25 @@ Compute all the possible sums of the arrays C and D. If the hash map contains th
 increase the count of four elements sum to 0 by the counter in the map.
 ```
 class Solution {
-    public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int len = A.length;   // 4 list have same length
-        int sum, res = 0, i, j;
-        for (i = 0; i < len; i++) {
-            for (j = 0; j < len; j++) {
-                sum = A[i] + B[j];
-                map.put(sum, map.getOrDefault(sum, 0)+1);
-            }
-        }
-        
-        for (i = 0; i < len; i++) {
-            for (j = 0; j < len; j++) {
-                sum = -(C[i] + D[j]);
-                res += map.getOrDefault(sum, 0);
-            }
-        }
-        return res;
+  public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
+    Map<Integer, Integer> map = new HashMap<>();
+    int len = A.length;   // 4 list have same length
+    int sum, res = 0, i, j;
+    for (i = 0; i < len; i++) {
+      for (j = 0; j < len; j++) {
+        sum = A[i] + B[j];
+        map.put(sum, map.getOrDefault(sum, 0)+1);
+      }
     }
+        
+    for (i = 0; i < len; i++) {
+      for (j = 0; j < len; j++) {
+        sum = -(C[i] + D[j]);
+        res += map.getOrDefault(sum, 0);
+      }
+    }
+    return res;
+  }
 }
 ```
 ### Java Knowledge
@@ -475,14 +472,11 @@ or defaultValue if this map contains no mapping for the key.
 	Example:
 	```
 	public class HashMapGetOrDefaultExample {
-
 		public static void main(String[] args) throws InterruptedException {
-
 			int idNum = 9756;
 			HashMap<Integer, String> map = init();
 			System.out.println("Student with id number " + idNum + " is "
 					+ map.getOrDefault(idNum, "John Doe"));
-
 		}
 
 		private static HashMap<Integer, String> init() {
@@ -493,7 +487,6 @@ or defaultValue if this map contains no mapping for the key.
 			mapStudent.put(98712, "Sharon Wallace");
 			return mapStudent;
 		}
-
 	}
 	```
 
@@ -537,9 +530,46 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
   }
 	```
   
-## [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)  
+## [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
+### Problem Description
+Given a list of non-negative numbers and a target integer k, write a function to check if the array has a continuous subarray of size at least 2 that sums up to the multiple of k, that is, sums up to n*k where n is also an integer.
+```
+Example 1:
+Input: [23, 2, 4, 6, 7],  k=6
+Output: True
+Explanation: Because [2, 4] is a continuous subarray of size 2 and sums up to 6.
+
+Example 2:
+Input: [23, 2, 6, 4, 7],  k=6
+Output: True
+Explanation: Because [23, 2, 6, 4, 7] is an continuous subarray of size 5 and sums up to 42.
+```
+Note:
+The length of the array won't exceed 10,000.
+You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
+
+### Solution
 
 ## [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
+### Problem Description
+Your are given an array of positive integers nums.
+
+Count and print the number of (contiguous) subarrays where the product of all the elements in the subarray is less than k.
+```
+Example 1:
+Input: nums = [10, 5, 2, 6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are: 
+             [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6].
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
+```
+Note:
+
+0 < nums.length <= 50000.
+0 < nums[i] < 1000.
+0 <= k < 10^6.
+
+### solution
 
 ## Knowledge Used
 #### [Javascript built-in objects : Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
