@@ -271,12 +271,16 @@ class Solution {
     if(num.length<4)return ans;
     Arrays.sort(num);
     for(int i=0; i<num.length-3; i++){
-        if(num[i]+num[i+1]+num[i+2]+num[i+3]>target)break; //first candidate too large, search finished
-        if(num[i]+num[num.length-1]+num[num.length-2]+num[num.length-3]<target)continue; //first candidate too small
+        //first candidate too large, search finished
+        if(num[i]+num[i+1]+num[i+2]+num[i+3]>target)  break; 
+	
+	//first candidate too small
+        if(num[i]+num[num.length-1]+num[num.length-2]+num[num.length-3]<target)   continue; 
         if(i>0&&num[i]==num[i-1])continue; //prevents duplicate result in ans list
         for(int j=i+1; j<num.length-2; j++){
             if(num[i]+num[j]+num[j+1]+num[j+2]>target)break; //second candidate too large
-            if(num[i]+num[j]+num[num.length-1]+num[num.length-2]<target)continue; //second candidate too small
+	    //second candidate too small
+            if(num[i]+num[j]+num[num.length-1]+num[num.length-2]<target)continue; 
             if(j>i+1&&num[j]==num[j-1])continue; //prevents duplicate results in ans list
             int low=j+1, high=num.length-1;
             while(low<high){
@@ -340,8 +344,8 @@ class Solution {
 	 * add all of them into the ArrayList fourSumList, using
 	 * fourSumList.add(Arrays.asList(z1, the three numbers))
 	 */
-	public void threeSumForFourSum(int[] nums, int target, int low, int high, ArrayList<List<Integer>> fourSumList,
-			int z1) {
+	public void threeSumForFourSum(int[] nums, int target, int low, int high, 
+	                               ArrayList<List<Integer>> fourSumList, int z1) {
 		if (low + 1 >= high)
 			return;
 
@@ -377,8 +381,8 @@ class Solution {
 	 * add all of them into the ArrayList fourSumList, using
 	 * fourSumList.add(Arrays.asList(z1, z2, the two numbers))
 	 */
-	public void twoSumForFourSum(int[] nums, int target, int low, int high, ArrayList<List<Integer>> fourSumList,
-			int z1, int z2) {
+	public void twoSumForFourSum(int[] nums, int target, int low, int high, 
+	                             ArrayList<List<Integer>> fourSumList, int z1, int z2) {
 
 		if (low >= high)
 			return;
