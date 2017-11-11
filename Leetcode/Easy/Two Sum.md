@@ -537,6 +537,9 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
 	}
 	```
   
+## [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)  
+
+## [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
 
 ## Knowledge Used
 #### [Javascript built-in objects : Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
