@@ -518,23 +518,23 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
   
   From solution 1, we know the key to solve this problem is SUM[i, j]. So if we know SUM[0, i - 1] and SUM[0, j], then we can easily get SUM[i, j]. To achieve this, we just need to go through the array, calculate the current sum and save number of all seen PreSum to a HashMap. Time complexity O(n), Space complexity O(n).
 	```
-	class Solution {
-			public int subarraySum(int[] nums, int k) {
-					// we can get any Sum[i, j] from Sum[0, i-1] and Sum[0, j].
-					// so just store Sum[0, i] in map : <sum, occurrence>
-					int sum = 0, res = 0;
-					Map<Integer, Integer> preSum = new HashMap<>();
-					preSum.put(0, 1);
-					for (int i = 0; i < nums.length; i++) {
-							sum += nums[i];
-							if (preSum.containsKey(sum - k)) {
-									res += preSum.get(sum - k);
-							}
-							preSum.put(sum, preSum.getOrDefault(sum, 0)+1);
-					}
-					return res;
-			}
-	}
+    class Solution {
+      public int subarraySum(int[] nums, int k) {
+      // we can get any Sum[i, j] from Sum[0, i-1] and Sum[0, j].
+      // so just store Sum[0, i] in map : <sum, occurrence>
+      int sum = 0, res = 0;
+      Map<Integer, Integer> preSum = new HashMap<>();
+      preSum.put(0, 1);
+      for (int i = 0; i < nums.length; i++) {
+          sum += nums[i];
+          if (preSum.containsKey(sum - k)) {
+              res += preSum.get(sum - k);
+          }
+          preSum.put(sum, preSum.getOrDefault(sum, 0)+1);
+      }
+      return res;
+    }
+  }
 	```
   
 ## [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)  
