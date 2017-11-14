@@ -565,6 +565,33 @@ The length of the array won't exceed 10,000.
 You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
 
 ### Solution
+We iterate through the input array exactly once, keeping track of the running sum mod k of the elements in the process. 
+If we find that a running sum value at index j has been previously seen before in some earlier index i in the array, 
+then we know that the sub-array (i,j] contains a desired sum. `i.e., if Sum[0,i] % k == Sum[0,j] % k, then Sum(i,j] % k == 0`.
+Note : 
+- any number except 0 mod 0 is undefined. So `nums = [23,2,4], k = 0` should return false.
+- 0 mod 0 is 0. So `nums = [0, 0, 0], k = 0` should return true.
+
+```
+class Solution {
+    public boolean checkSubarraySum(int[] nums, int k) {
+        Map<Integer, Integer>  map = new HashMap<>();
+        map.put(0, -1);    //  nums = [0, 0], k = 0
+        int acc = 0;
+        for (int i = 0; i < nums.length; i++) {
+            acc += nums[i];
+            if (k != 0) acc %= k;
+            Integer prev = map.get(acc);
+            if (prev != null)  {
+                if (i - prev > 1)   return true;
+            } else {
+                map.put(acc, i);
+            }
+        }
+        return false;
+    }
+}
+```
 
 ## [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
 ### Problem Description
