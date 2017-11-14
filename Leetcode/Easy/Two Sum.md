@@ -586,6 +586,56 @@ Note:
 0 <= k < 10^6.
 
 ### solution
+- Basic Idea
+```
+class Solution {
+    public int numSubarrayProductLessThanK(int[] nums, int k) {
+        int res = 0, acc = 1, left = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int curr = nums[i];
+            if (curr >= k) {
+                left = i + 1;
+                acc = 1;
+                continue;
+            }
+            acc *= curr;
+            if(acc < k) {
+                res += i - left + 1;
+            } else {
+                while (acc >= k && left < i) {
+                    acc /= nums[left];
+                    ++left;
+                }
+                res += i - left + 1;
+            }
+        }
+        return res;
+    }
+}
+```
+
+- Back Tracking
+
+
+
+## [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
+### Problem Description
+Find the contiguous subarray within an array (containing at least one number) which has the largest product.
+
+For example, given the array [2,3,-2,4], the contiguous subarray [2,3] has the largest product = 6.
+
+## [?. Maximum Size Subarray Sum Equals k](https://www.programcreek.com/2014/10/leetcode-maximum-size-subarray-sum-equals-k-java/) locked
+### Problem Description
+Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
+If there isn't one, return 0 instead.
+
+Note:
+The sum of the entire nums array is guaranteed to fit within the 32-bit signed integer range.
+```
+Example 1:
+Given nums = [1, -1, 5, -2, 3], k = 3,
+return 4. (because the subarray [1, -1, 5, -2] sums to 3 and is the longest)
+```
 
 ## Knowledge Used
 #### [Javascript built-in objects : Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
