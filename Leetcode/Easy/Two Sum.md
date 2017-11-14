@@ -586,7 +586,7 @@ Note:
 0 <= k < 10^6.
 
 ### solution
-- Basic Idea
+- Basic Idea : two pointer slide window, product of (window) subarray.
 ```
 class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
@@ -613,9 +613,6 @@ class Solution {
     }
 }
 ```
-
-- Back Tracking
-
 
 
 ## [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
