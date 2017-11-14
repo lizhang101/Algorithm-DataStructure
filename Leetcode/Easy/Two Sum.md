@@ -648,6 +648,37 @@ Find the contiguous subarray within an array (containing at least one number) wh
 
 For example, given the array [2,3,-2,4], the contiguous subarray [2,3] has the largest product = 6.
 
+### Solution
+```
+class Solution {
+  public int maxProduct(int[] nums) {
+    // store the result that is the max we have found so far
+    int res = nums[0];
+        
+    // max/min stores the max/min product of
+    // subarray that ends with the current number nums[i]
+    for (int i = 1, max = res, min = res; i < nums.length; i++) {
+      // multiplied by a negative makes big number smaller, small number bigger
+      // so we redefine the extremums by swapping them            
+      if (nums[i] < 0)  {
+        int tmp = max;
+        max = min;
+        min = tmp;
+      }
+            
+      // max/min product for the current number is either the current number itself
+      // or the max/min by the previous number times the current one            
+      max = Math.max(nums[i], max*nums[i]);
+      min = Math.min(nums[i], min*nums[i]);
+            
+      // the newly computed max value is a candidate for our global result
+      res = Math.max(max, res);
+    }
+    return res;
+  }
+}
+```
+
 ## [?. Maximum Size Subarray Sum Equals k](https://www.programcreek.com/2014/10/leetcode-maximum-size-subarray-sum-equals-k-java/) locked
 ### Problem Description
 Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
