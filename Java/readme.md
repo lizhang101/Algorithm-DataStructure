@@ -1,7 +1,12 @@
-Java language learning.
-### tutorials point [Java Tutorial](https://www.tutorialspoint.com/java/index.htm)
-### javatpoint [Java Tutorial](https://www.javatpoint.com/java-tutorial)
-### javatutorialhq [Java Tutorial](http://javatutorialhq.com/java/)
+# Java language learning.
+## Tutorials
+### [Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
+### [javaTpoint](https://www.javatpoint.com/java-tutorial)
+### [javatutorialhq](http://javatutorialhq.com/java/)
+- core concept
+- Java API
+### [java2novice](https://www.java2novice.com/)
+### [beginner's book](https://beginnersbook.com/java-tutorial-for-beginners-with-examples/)
 
 # QA
 - [Difference between add() and offer() methods of Queue interface](https://stackoverflow.com/questions/20526910/difference-between-add-and-offer-methods-of-queue-interface)
