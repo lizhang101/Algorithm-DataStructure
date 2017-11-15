@@ -1,11 +1,11 @@
 # Java language learning.
 ## Tutorials
+### [java2novice](https://www.java2novice.com/)
 ### [Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
 ### [javaTpoint](https://www.javatpoint.com/java-tutorial)
 ### [javatutorialhq](http://javatutorialhq.com/java/)
 - core concept
 - Java API
-### [java2novice](https://www.java2novice.com/)
 ### [beginner's book](https://beginnersbook.com/java-tutorial-for-beginners-with-examples/)
 
 # QA
