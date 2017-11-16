@@ -145,6 +145,16 @@ Trees are hierarchical data structures.
   - Order statistics: The Heap data structure can be used to efficiently find the k’th smallest (or largest) element in an array.
   - Heap is a special data structure and it cannot be used for searching of a particular element.
 
+## Trie
+A Trie is a special data structure used to store strings that can be visualized like a graph. It consists of nodes and edges. Each node consists of at max 26 children and edges connect each parent node to its children. Each node of a trie also has an indicator to say, weather or not it is the end-of-word.
+
+The major application of Trie data structure is in storing a dictionary (Collection of strings) such the searching for a word in dictionary become O(k) time operation where k is the number of characters in the word.A HashMap can also do the same, but it can only check if the exact word exists or not. Trie, on the other hand, has many more applications,
+
+- like trie can be used in prefix-based search (e.g find all valid words with a particular prefix), so it can be used in autocomplete.
+- It takes less space than a Hash-table, because overlapping prefixes of multiple words, share common storage.
+- Trie can check that every word you type is in the dictionary or not.
+
+
 
 ## Graph
 A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
@@ -212,6 +222,13 @@ TBD...
   
 - Tree Traversal
   - https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
+  
+- Trie
+  - [TRIE datastructure explanation and simplified dictionary implementation in Java](http://javabypatel.blogspot.in/2015/07/trie-datastructure-explanation-and-applications.html)
+  - [TRIE DATA STRUCTURE](http://www.ritambhara.in/trie-data-structure/)  
+  - [PRINT ALL WORDS IN A TRIE DATA STRUCTURE](http://www.ritambhara.in/print-all-words-in-a-trie-data-structure/)
+  - [Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+  - [MAXIMUM XOR VALUE OF TWO ELEMENTS](http://www.ritambhara.in/maximum-xor-value-of-two-elements/)
 
 - Graph Theory Tutorial
   - https://www.tutorialspoint.com/graph_theory/index.htm
