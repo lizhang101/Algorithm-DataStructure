@@ -225,9 +225,9 @@ TBD...
   
 - Trie
   - [TRIE datastructure explanation and simplified dictionary implementation in Java](http://javabypatel.blogspot.in/2015/07/trie-datastructure-explanation-and-applications.html)
+  - [Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
   - [TRIE DATA STRUCTURE](http://www.ritambhara.in/trie-data-structure/)  
   - [PRINT ALL WORDS IN A TRIE DATA STRUCTURE](http://www.ritambhara.in/print-all-words-in-a-trie-data-structure/)
-  - [Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
   - [MAXIMUM XOR VALUE OF TWO ELEMENTS](http://www.ritambhara.in/maximum-xor-value-of-two-elements/)
 
 - Graph Theory Tutorial
