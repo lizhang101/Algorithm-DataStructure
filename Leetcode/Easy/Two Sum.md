@@ -617,20 +617,20 @@ Note:
 ```
 class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-        int res = 0, acc = 1, left = 0;
+        int res = 0, product = 1, left = 0;
         for (int i = 0; i < nums.length; i++) {
             int curr = nums[i];
             if (curr >= k) {
                 left = i + 1;
-                acc = 1;
+                product = 1;
                 continue;
             }
-            acc *= curr;
-            if(acc < k) {
+            product *= curr;
+            if(product < k) {
                 res += i - left + 1;
             } else {
-                while (acc >= k && left < i) {
-                    acc /= nums[left];
+                while (product >= k && left < i) {
+                    product /= nums[left];
                     ++left;
                 }
                 res += i - left + 1;
