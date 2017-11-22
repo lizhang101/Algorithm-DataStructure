@@ -11,7 +11,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 Credits:
 Special thanks to @mithmatt for adding this problem and creating all test cases.
 
-## Solution
+## [Solutions](https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/)
 1. sort and return kth largest element, O(N lg N) time + O(1) memory complexity
 ```
 class Solution {
@@ -42,3 +42,7 @@ public int findKthLargest(int[] nums, int k) {
 - [priority Queue](http://www.geeksforgeeks.org/priority-queue-class-in-java-2/)
 
   The head of priority queue is the least element with respect to the specified ordering.
+
+## Similar Problems
+- [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)
+
