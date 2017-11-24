@@ -6,3 +6,4 @@ about leetcode practices.
 
 ### Ref
 - https://github.com/fishercoder1534/Leetcode
+- https://github.com/chihungyu1116/leetcode-javascript
