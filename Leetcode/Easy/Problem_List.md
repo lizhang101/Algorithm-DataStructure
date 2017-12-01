@@ -65,36 +65,36 @@
 - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
 
 ## Linked List
-- 206. Reverse Linked List
-- 237. Delete Node in a Linked List
-- 83. Remove Duplicates from Sorted List
-- 141. Linked List Cycle
-- 21. Merge Two Sorted Lists
-- 24. Swap Nodes in Pairs
-- 160. Intersection of Two Linked Lists
-- 19. Remove Nth Node From End of List
-- 234. Palindrome Linked List
-- 203. Remove Linked List Elements
-- 2. Add Two Numbers
+- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+- [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
+- [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
+- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
+- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)   medium
+- [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
+- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium
+- [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
+- [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
+- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)   mediu
 
 ## Dynamic Programming
-- 292. Nim Game
-- 70. Climbing Stairs
-- 121. Best Time to Buy and Sell Stock
-- 198. House Robber
-- 374. Guess Number Higher or Lower
-- 278. First Bad Version
+- [292. Nim Game](https://leetcode.com/problems/nim-game)
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [198. House Robber](https://leetcode.com/problems/house-robber)
+- [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
+- [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
 
 ## Others
-- 371. Sum of Two Integers
-- 191. Number of 1 Bits
-- 232. Implement Queue using Stacks
-- 36. Valid Sudoku
-- 299. Bulls and Cows
-- 225. Implement Stack using Queues
-- 190. Reverse Bits
-- 303. Range Sum Query - Immutable
-- 155. Min Stack
+- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
+- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+- [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
+- [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)
+- [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
+- [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
+- [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
+- [155. Min Stack](https://leetcode.com/problems/min-stack)
 
 ### Reference
 - [LeetCode with Javascript初学者练习](https://skyyen999.gitbooks.io/-leetcode-with-javascript/content/)
