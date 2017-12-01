@@ -1,8 +1,10 @@
 # List of Easy Problems
 ## String
-- [344. Reverse String](https://leetcode.com/problems/reverse-string)
-- [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
-- [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+1. Reverse String [solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Reverse_String.md)  
+  - [344. Reverse String](https://leetcode.com/problems/reverse-string)
+  - [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
+  - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+--------------------------------------------------------------------------------------------------------------------
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
