@@ -1,21 +1,21 @@
 # List of Easy Problems
 ## String
-- 344. Reverse String
-- 242. Valid Anagram
-- 13. Roman to Integer
-- 345. Reverse Vowels of a String
-- 205. Isomorphic Strings
-- 290. Word Pattern
-- 38. Count and Say
-- 20. Valid Parentheses
-- 58. Length of Last Word
-- 14. Longest Common Prefix
-- 67. Add Binary
-- 28. Implement strStr()
-- 6. ZigZag Conversion
-- 125. Valid Palindrome
-- 165. Compare Version Numbers
-- 8. String to Integer (atoi)
+- [344. Reverse String](https://leetcode.com/problems/reverse-string)
+- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+- [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+- [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
+- [290. Word Pattern](https://leetcode.com/problems/word-pattern)
+- [38. Count and Say](https://leetcode.com/problems/count-and-say)
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+- [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+- [67. Add Binary](https://leetcode.com/problems/add-binary)
+- [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
+- [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)
+- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 
 ## Number
 - 258. Add Digits
