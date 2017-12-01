@@ -18,20 +18,20 @@
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 
 ## Number
-- 258. Add Digits
-- 171. Excel Sheet Column Number
-- 326. Power of Three
-- 231. Power of Two
-- 202. Happy Number
-- 263. Ugly Number
-- 342. Power of Four
-- 66. Plus One
-- 172. Factorial Trailing Zeroes
-- 9. Palindrome Number
-- 7. Reverse Integer
-- 223. Rectangle Area
-- 204. Count Primes
-- 168. Excel Sheet Colum
+- [258. Add Digits](https://leetcode.com/problems/add-digits)
+- [231. Power of Two](https://leetcode.com/problems/power-of-two)
+- [326. Power of Three](https://leetcode.com/problems/power-of-three)
+- [342. Power of Four](https://leetcode.com/problems/power-of-four)
+- [202. Happy Number](https://leetcode.com/problems/happy-number)
+- [263. Ugly Number](https://leetcode.com/problems/ugly-number)
+- [66. Plus One](https://leetcode.com/problems/plus-one)
+- [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number)
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
+- [223. Rectangle Area](https://leetcode.com/problems/rectangle-area)
+- [204. Count Primes](https://leetcode.com/problems/count-primes)
+- [168. Excel Sheet Colum](https://leetcode.com/problems/excel-sheet-column-title)
+- [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
 
 ## Array
 - 283. Move Zeroes
