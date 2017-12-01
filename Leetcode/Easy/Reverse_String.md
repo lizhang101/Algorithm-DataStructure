@@ -95,7 +95,8 @@ Dual pointer, one iterate from left to right, the other iterate from right to le
    */
   var reverseVowels = function(s) {
       var chars = s.split("");
-      var vowels = {"a":true, "e":true, "i":true, "o":true, "u":true, "A":true, "E":true, "I":true, "O":true, "U":true};
+      var vowels = {"a":true, "e":true, "i":true, "o":true, "u":true, 
+                    "A":true, "E":true, "I":true, "O":true, "U":true};
 
       var left = 0, right = chars.length-1;
       while (true) {  
