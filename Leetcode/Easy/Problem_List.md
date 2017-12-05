@@ -1,13 +1,13 @@
 # List of Easy Problems
 ## String
-1. Reverse String [solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Reverse_String.md)  
+1. Reverse String [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Reverse_String.md)  
   - [344. Reverse String](https://leetcode.com/problems/reverse-string)
   - [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
   - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
 --------------------------------------------------------------------------------------------------------------------
-- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
-- [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) 
-  - [Sliding Window algorithm template to solve all the Leetcode substring search problem](https://discuss.leetcode.com/topic/68976/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem) _**!!!**_
+2. Anagram [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Anagram.md)
+  - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
+  - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) _**!**_
 --------------------------------------------------------------------------------------------------------------------
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
