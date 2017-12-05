@@ -114,3 +114,15 @@ Dual pointer, one iterate from left to right, the other iterate from right to le
       return chars.join("");
   };    
 ```
+
+## JavaScript Knowledge
+### [String method slice() vs. substring() vs. substr()](http://www.tothenew.com/blog/javascript-slice-vs-substring-vs-substr/)
+
+  All used to return a new string which is part of the original string.
+
+   method | syntax | argument1 | argument2 | rules 
+  ------- | ------ | ----------| --------- | ----------------------------------
+  slice() | `str.slice(begin[, end])` | _begin_, required.<br>Zero-based index to begin extraction, inclusive. | _end_, optional.<br>Zero-based index to end the extraction, exclusive.<br>If omitted, extract to end of string. | 1) if begin or end < 0 : begin or end += strLen; <br>2) if begin >= end : return empty string;<br>3) if begin or end > strLen : begin or end = strLen;<br>4) if either argument is NaN, it is treated as if it were 0.
+  substring() | `str.substring(Start[, End])` | _Start_, required. inclusive.<br>`[0, strLen]` | _End_, optional, exclusive.<br>`[0, strLen]`<br>if omitted, extract to end of string.| 1) if Start >= End or Start >= strLen : return empty string.<br>2) if begin or end > strLen : begin or end = strLen;<br>3) if either argument is less than 0 or is NaN, it is treated as if it were 0.
+  substr() | `str.substr(start[, length])` | _start_, required. inclusive. | _length_, number of characters to extract.<br>if omitted (undefined), extract to end of string. | 1) if start >= strLen : return empty string;<br>2) if length <= 0 or is NaN : return empty string;<br>3) if start < 0 : start += strLen;<br>4) if start is NaN : start = 0;
+  
