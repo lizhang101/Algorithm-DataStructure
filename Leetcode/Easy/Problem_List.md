@@ -1,11 +1,11 @@
 # List of Easy Problems
 ## String
-1. Reverse String [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Reverse_String.md)  
+1. Reverse String [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-1_Reverse_String.md)  
   - [344. Reverse String](https://leetcode.com/problems/reverse-string)
   - [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
   - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
 --------------------------------------------------------------------------------------------------------------------
-2. Anagram [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Anagram.md)
+2. Anagram [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-2_Anagram.md)
   - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
   - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) _**!**_
 --------------------------------------------------------------------------------------------------------------------
