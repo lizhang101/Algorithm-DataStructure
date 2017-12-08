@@ -11,7 +11,7 @@
 --------------------------------------------------------------------------------------------------------------------
 3. Type converter  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-3_type-convert.md)
   - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
-  - [12. 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)  _**Medium**_
+  - [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)  _**Medium**_
   - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)  _**Medium**_
   - [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
 --------------------------------------------------------------------------------------------------------------------
