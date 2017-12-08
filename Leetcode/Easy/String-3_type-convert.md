@@ -100,3 +100,6 @@ var toHex = function(num) {
     return result;
 };
 ```
+## other related problems
+- [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
+- [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
