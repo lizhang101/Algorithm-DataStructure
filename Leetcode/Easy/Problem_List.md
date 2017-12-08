@@ -15,7 +15,7 @@
   - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)  _**Medium**_
   - [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
 --------------------------------------------------------------------------------------------------------------------
-- [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
+- [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/205.%20Isomorphic%20Strings.md)
 - [290. Word Pattern](https://leetcode.com/problems/word-pattern)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
