@@ -19,8 +19,13 @@
   - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
   - [290. Word Pattern](https://leetcode.com/problems/word-pattern)
 --------------------------------------------------------------------------------------------------------------------
+5. parentheses
+  - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+  - [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  Medium
+  - [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)  Hard
+  - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)  Hard
+--------------------------------------------------------------------------------------------------------------------
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
-- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
 - [67. Add Binary](https://leetcode.com/problems/add-binary)
