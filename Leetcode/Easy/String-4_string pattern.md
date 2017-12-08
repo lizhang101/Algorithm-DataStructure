@@ -67,3 +67,40 @@ You may assume both s and t have the same length.
     return true;
   };
   ```
+
+# [290. Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+## Problem Description
+Given a pattern and a string str, find if str follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.
+
+Examples:
+```
+pattern = "abba", str = "dog cat cat dog" should return true.
+pattern = "abba", str = "dog cat cat fish" should return false.
+pattern = "aaaa", str = "dog cat cat dog" should return false.
+pattern = "abba", str = "dog dog dog dog" should return false.
+```
+Notes:
+You may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.
+
+## Solution
+The basic idea is exactly same as problem 205.
+```
+var wordPattern = function(pattern, str) {
+    var ptn_arr = pattern.split("");
+    var str_arr = str.split(" ");
+    if (ptn_arr.length !== str_arr.length)   return false;
+    
+    var map = {};
+    for (var i = 0; i < pattern.length; i++) {
+        if ((typeof map[ptn_arr[i]] === "undefined") && (str_arr.slice(0, i).indexOf(str_arr[i]) == -1)) {
+            map[ptn_arr[i]] = str_arr[i];
+            continue;
+        }
+        if (map[ptn_arr[i]] === str_arr[i])   continue;
+        return false;
+    }
+    return true;
+};
+```
