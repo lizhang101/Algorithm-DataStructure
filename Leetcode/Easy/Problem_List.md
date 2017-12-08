@@ -9,7 +9,12 @@
   - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
   - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) _**!**_
 --------------------------------------------------------------------------------------------------------------------
-- [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+3. Type converter
+  - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+  - [12. 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)  _**Medium**_
+  - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
+  - [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
+--------------------------------------------------------------------------------------------------------------------
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
 - [290. Word Pattern](https://leetcode.com/problems/word-pattern)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
@@ -21,7 +26,7 @@
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)
-- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
+
 
 ## Number
 - [258. Add Digits](https://leetcode.com/problems/add-digits)
