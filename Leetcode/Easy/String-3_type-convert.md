@@ -33,7 +33,7 @@ var romanToInt = function(s) {
 
 # [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)  Medium
 
-# [8. String to Integer (atoi)]()
+# [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)  Medium
 
 # [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
 ## Problem Description
