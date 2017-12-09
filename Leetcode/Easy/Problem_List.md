@@ -34,7 +34,6 @@
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
-- [67. Add Binary](https://leetcode.com/problems/add-binary)
 - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
