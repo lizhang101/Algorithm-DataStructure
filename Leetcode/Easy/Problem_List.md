@@ -48,7 +48,6 @@
 - [342. Power of Four](https://leetcode.com/problems/power-of-four)
 - [202. Happy Number](https://leetcode.com/problems/happy-number)
 - [263. Ugly Number](https://leetcode.com/problems/ugly-number)
-- [66. Plus One](https://leetcode.com/problems/plus-one)
 - [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number)
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer)
