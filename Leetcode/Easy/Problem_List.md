@@ -25,6 +25,12 @@
   - [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)  Hard
   - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)  Hard
 --------------------------------------------------------------------------------------------------------------------
+6. operations  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-6_operations.md)
+  - [66. Plus One](https://leetcode.com/problems/plus-one/description/)
+  - [67. Add Binary](https://leetcode.com/problems/add-binary/description/)
+  - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)  Medium
+  - plus one linked list  Medium  locked
+--------------------------------------------------------------------------------------------------------------------
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
