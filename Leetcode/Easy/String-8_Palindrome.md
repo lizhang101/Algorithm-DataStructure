@@ -145,3 +145,6 @@ function isPalindrome(s, l, r) {
 ```
 
 # [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+
+# [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)  Medium
+# [564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/)  Hard
