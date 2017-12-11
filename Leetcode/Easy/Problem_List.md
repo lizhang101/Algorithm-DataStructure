@@ -41,7 +41,7 @@
 - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
-- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)
+- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/165.%20Compare%20Version%20Numbers.md)
 
 
 ## Number
