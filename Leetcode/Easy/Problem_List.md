@@ -46,13 +46,13 @@
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [443. String Compression](https://leetcode.com/problems/string-compression/description/)
 --------------------------------------------------------------------------------------------------------------------
-- [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
+
 - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 --------------------------------------------------------------------------------------------------------------------
-11. others
+11. others [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-11_Others.md)
 - [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) -- [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/165.%20Compare%20Version%20Numbers.md)
-
+- [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 
 ## Number
 - [258. Add Digits](https://leetcode.com/problems/add-digits)
