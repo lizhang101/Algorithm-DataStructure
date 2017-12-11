@@ -96,5 +96,52 @@ Syntax : `str.replace(regexp|substr, newSubstr|function)`
   ```
 
 # [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
+## Problem Description
+Given a non-empty string s, you may delete _at most one_ character. Judge whether you can make it a palindrome.
+```
+Example 1:
+Input: "aba"
+Output: True
+Example 2:
+Input: "abca"
+Output: True
+Explanation: You could delete the character 'c'.
+```
+Note:
+The string will only contain lowercase characters a-z. The maximum length of the string is 50000.
+
+## Solution
+If you can make a string palindrome by deleting at most one character, the string should be palindrome by itself, or after deleting the one character.
+```
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var validPalindrome = function(s) {
+    var left = 0;
+    var right = s.length - 1;
+    
+    while (left < right) {
+        if (s[left] !== s[right]) {
+            return isPalindrome(s, left, right - 1) || isPalindrome(s, left + 1, right);
+        }
+        left++;
+        right--;
+    }
+    return true;
+    
+};
+
+function isPalindrome(s, l, r) {
+    while (l < r) {
+        if (s[l] !== s[r]) {
+            return false;
+        }
+        l++;
+        r--;
+    }
+    return true;
+}
+```
 
 # [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
