@@ -32,16 +32,22 @@
   - plus one linked list  Medium  locked
 --------------------------------------------------------------------------------------------------------------------
 7. string mutation  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-7_mutation.md)
-- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
-- [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) Medium
-- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) Medium
+  - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+  - [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) Medium
+  - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) Medium
+--------------------------------------------------------------------------------------------------------------------
+8. Palindrome   [Solution]()
+ - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+ - [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
+ - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 --------------------------------------------------------------------------------------------------------------------
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
-- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
-- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/165.%20Compare%20Version%20Numbers.md)
+--------------------------------------------------------------------------------------------------------------------
+11. others
+- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) -- [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/165.%20Compare%20Version%20Numbers.md)
 
 
 ## Number
