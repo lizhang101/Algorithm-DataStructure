@@ -36,7 +36,7 @@
   - [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) Medium
   - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) Medium
 --------------------------------------------------------------------------------------------------------------------
-8. Palindrome   [Solution]()
+8. Palindrome   [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-8_Palindrome.md)
  - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
  - [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
  - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
