@@ -41,6 +41,7 @@
  - [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
  - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
  - [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)  Medium
+ - [564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/)  Hard
 --------------------------------------------------------------------------------------------------------------------
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [443. String Compression](https://leetcode.com/problems/string-compression/description/)
