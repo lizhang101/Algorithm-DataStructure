@@ -145,6 +145,11 @@ function isPalindrome(s, l, r) {
 ```
 
 # [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+## Problem Description
+Given a singly linked list, determine if it is a palindrome.
+
+Follow up:
+Could you do it in O(n) time and O(1) space?
 
 # [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)  Medium
 # [564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/)  Hard
