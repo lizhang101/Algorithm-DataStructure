@@ -31,9 +31,13 @@
   - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)  Medium
   - plus one linked list  Medium  locked
 --------------------------------------------------------------------------------------------------------------------
+7. string mutation  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/String-7_mutation.md)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+- [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) Medium
+- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) Medium
+--------------------------------------------------------------------------------------------------------------------
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)
-- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
 - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr)
 - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
