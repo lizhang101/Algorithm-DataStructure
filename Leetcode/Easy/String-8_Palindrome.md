@@ -57,6 +57,7 @@ var isPalindrome = function(s) {
 ```
 
 ## JavaScript
+### [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 ### [RegEx](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 - [regex.test V.S. string.match to know if a string matches a regular expression](https://stackoverflow.com/questions/10940137/regex-test-v-s-string-match-to-know-if-a-string-matches-a-regular-expression)
   - `regexObject.test( String )` : Executes the search for a match between a regular expression and a specified string. Returns true or false.    
