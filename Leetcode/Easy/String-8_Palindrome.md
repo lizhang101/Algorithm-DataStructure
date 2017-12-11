@@ -57,6 +57,13 @@ var isPalindrome = function(s) {
 ```
 
 ## JavaScript
+### [RegEx](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [regex.test V.S. string.match to know if a string matches a regular expression](https://stackoverflow.com/questions/10940137/regex-test-v-s-string-match-to-know-if-a-string-matches-a-regular-expression)
+  - `regexObject.test( String )` : Executes the search for a match between a regular expression and a specified string. Returns true or false.    
+  - `string.match( RegExp )` : Used to retrieve the matches when matching a string against a regular expression. Returns an array with the matches or null if there are none.
+  
+- [exec() vs match() vs test() vs search()](https://jsperf.com/exec-vs-match-vs-test-vs-search/2)
+
 ### [String.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match.
 
