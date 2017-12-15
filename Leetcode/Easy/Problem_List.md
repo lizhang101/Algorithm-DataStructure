@@ -94,7 +94,7 @@
   - [100. Same Tree](https://leetcode.com/problems/same-tree)
     - 210 medium
     - 332 medium
-  - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) _**!**_  [Solution]()
+  - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) _**!**_  [Solution](https://discuss.leetcode.com/topic/105773/concise-javascript-solution-using-recursion)
 - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
