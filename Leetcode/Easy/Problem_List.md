@@ -85,7 +85,10 @@
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
 
 ## Binary Tree
-12/15/17
+1. need redo _**!**_  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-1_need-redo.md)
+  - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
+  - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+---------------------------------------------------------------------------------------------------------------  
   - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
     - 491 medium
   - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
@@ -94,7 +97,7 @@
   - [100. Same Tree](https://leetcode.com/problems/same-tree)
     - 210 medium
     - 332 medium
-  - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) _**!**_  [Solution](https://discuss.leetcode.com/topic/105773/concise-javascript-solution-using-recursion)
+-------------------------------------------------------------------------------------------------------------------------
 - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
