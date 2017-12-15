@@ -85,9 +85,16 @@
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
 
 ## Binary Tree
-- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
-- [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
-- [100. Same Tree](https://leetcode.com/problems/same-tree)
+12/15/17
+  - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+    - 491 medium
+  - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+    - 222 medium
+    - 684 medium
+  - [100. Same Tree](https://leetcode.com/problems/same-tree)
+    - 210 medium
+    - 332 medium
+  - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
 - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
@@ -98,7 +105,6 @@
 - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)
 - [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)
 - [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
-- [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
 
 ## Linked List
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
