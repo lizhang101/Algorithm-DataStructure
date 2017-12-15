@@ -10,6 +10,6 @@
 
 # [120. Triangle](https://leetcode.com/problems/triangle/description/)   -   Medium
 
-# [666. Path Sum IV]()  -  Medium, Locked
+# [666. Path Sum IV](https://leetcode.com/problems/path-sum-iv)  -  Medium, Locked
 
 # [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)  -  Hard
