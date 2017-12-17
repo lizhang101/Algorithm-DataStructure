@@ -76,6 +76,16 @@
   - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 -------------------------------------------------------------------------------------------------------------  
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+  ```
+  var intersection = function(nums1, nums2) {    
+    var set1 = new Set(nums1);
+    var set2 = new Set(nums2);    
+    var res = [...set1].filter(x => set2.has(x));
+    return res;
+  };
+  ```
+  - [JavaScript Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+  - JS [array filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
