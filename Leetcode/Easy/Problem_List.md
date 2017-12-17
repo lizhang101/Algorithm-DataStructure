@@ -90,6 +90,13 @@
   - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
 2. path sum [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-2_path%20sum.md)
   - [112. Path Sum](https://leetcode.com/problems/path-sum)   --- root-to-leaf path
+  - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)  -  Easy
+  - [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)  -  Medium
+  - [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium
+  - [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)  -  Medium
+  - [120. Triangle](https://leetcode.com/problems/triangle/description/)   -   Medium
+  - [666. Path Sum IV](https://leetcode.com/problems/path-sum-iv)  -  Medium, Locked
+  - [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)  -  Hard
 ---------------------------------------------------------------------------------------------------------------  
   - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
     - 491 medium
