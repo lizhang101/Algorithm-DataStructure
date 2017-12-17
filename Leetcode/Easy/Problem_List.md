@@ -70,7 +70,9 @@
 - [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
 
 ## Array
-- [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
+1. two pointers
+  - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
+-------------------------------------------------------------------------------------------------------------  
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
