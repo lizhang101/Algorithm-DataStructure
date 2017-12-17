@@ -95,6 +95,8 @@
   - JS [array filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
   - [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)  Medium
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
+  - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Medium
+--------------------------------------------------------------------------------------------------------------------------  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
 - [27. Remove Element](https://leetcode.com/problems/remove-element)
