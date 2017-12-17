@@ -93,6 +93,7 @@
     var difference = [...set1].filter(x => !set2.has(x));    
     ```
   - JS [array filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)  Medium
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
