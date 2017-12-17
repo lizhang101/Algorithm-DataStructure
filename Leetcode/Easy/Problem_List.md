@@ -72,6 +72,8 @@
 ## Array
 1. two pointers
   - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
+  - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  Medium
+  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 -------------------------------------------------------------------------------------------------------------  
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
