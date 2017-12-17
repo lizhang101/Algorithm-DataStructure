@@ -85,6 +85,13 @@
   };
   ```
   - [JavaScript Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+    ```
+    // intersect can be simulated via 
+    var intersection = [...set1].filter(x => set2.has(x));
+
+    // difference can be simulated via
+    var difference = [...set1].filter(x => !set2.has(x));    
+    ```
   - JS [array filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
