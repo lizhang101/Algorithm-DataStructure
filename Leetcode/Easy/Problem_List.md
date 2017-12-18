@@ -74,7 +74,7 @@
   - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)  
   - [27. Remove Element](https://leetcode.com/problems/remove-element)
   - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  Medium
-  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
+  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)  Medium
 -------------------------------------------------------------------------------------------------------------  
 2. intersection  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array_2-intersection.md)
   - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
