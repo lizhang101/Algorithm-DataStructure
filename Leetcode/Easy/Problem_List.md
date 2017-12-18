@@ -75,30 +75,16 @@
   - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  Medium
   - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 -------------------------------------------------------------------------------------------------------------  
-- [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-  ```
-  var intersection = function(nums1, nums2) {    
-    var set1 = new Set(nums1);
-    var set2 = new Set(nums2);    
-    var res = [...set1].filter(x => set2.has(x));
-    return res;
-  };
-  ```
-  - [JavaScript Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
-    ```
-    // intersect can be simulated via 
-    var intersection = [...set1].filter(x => set2.has(x));
-
-    // difference can be simulated via
-    var difference = [...set1].filter(x => !set2.has(x));    
-    ```
-  - JS [array filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  - [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)  Medium
-- [169. Majority Element](https://leetcode.com/problems/majority-element)
+2. intersection  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array_2-intersection.md)
+  - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+  - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)  
+  - [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)  Medium  
+-------------------------------------------------------------------------------------------------------------  
+3. majority element
+  - [169. Majority Element](https://leetcode.com/problems/majority-element)
   - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Medium
 --------------------------------------------------------------------------------------------------------------------------  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
-- [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
 - [27. Remove Element](https://leetcode.com/problems/remove-element)
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
