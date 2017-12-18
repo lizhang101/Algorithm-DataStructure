@@ -84,15 +84,20 @@
 3. majority element
   - [169. Majority Element](https://leetcode.com/problems/majority-element)
   - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Medium
---------------------------------------------------------------------------------------------------------------------------  
-- [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+--------------------------------------------------------------------------------------------------------------
+4. duplicate    [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-4_duplicate.md)
+  - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+  - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
+  - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)  Medium
+--------------------------------------------------------------------------------------------------------------
+
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
-- [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
 - [1. Two Sum](https://leetcode.com/problems/two-sum)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
+- [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)
 
 ## Binary Tree
 1. need redo _**!**_  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-1_need-redo.md)
