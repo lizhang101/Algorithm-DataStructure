@@ -70,11 +70,10 @@
 - [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
 
 ## Array
-1. two pointers   [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-1_two%20pointers.md)
+1. remove element   [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-1_remove%20element.md)
   - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)  
   - [27. Remove Element](https://leetcode.com/problems/remove-element)
-  - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  Medium
-  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)  Medium
+  - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 -------------------------------------------------------------------------------------------------------------  
 2. intersection  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array_2-intersection.md)
   - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
@@ -89,14 +88,11 @@
   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
   - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
   - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)  Medium
-  - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 --------------------------------------------------------------------------------------------------------------
 5. Pascal's Triangle
   - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
   - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
 --------------------------------------------------------------------------------------------------------------  
-
-
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
 - [1. Two Sum](https://leetcode.com/problems/two-sum)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
@@ -168,3 +164,9 @@
 
 ### Reference
 - [LeetCode with Javascript初学者练习](https://skyyen999.gitbooks.io/-leetcode-with-javascript/content/)
+
+------------------------------------------------------------------------------------------------------------------
+  - [39. Combination Sum](https://leetcode.com/problems/combination-sum) Medium
+  - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii) Medium
+  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/) Medium
+  - [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) Medium
