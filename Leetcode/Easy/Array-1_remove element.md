@@ -83,3 +83,47 @@ Your function should return length = 2, with the first two elements of nums bein
       }
   };
   ```
+
+# [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+## Problem Description
+Given a sorted array, remove the duplicates in-place such that each element appear only once and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+Example:
+```
+Given nums = [1,1,2],
+
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+It doesn't matter what you leave beyond the new length.
+```
+
+## Solution
+- Solution 1 : brute force. remove all repeated (appear more than once) elements.
+```
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    var num = null;
+    for (var i = nums.length-1; i >= 0; i--) {
+        if (nums[i] === num)   nums.splice(i, 1);
+        else num = nums[i];
+    }
+};
+```
+
+- Solution 2 : borrow idea of problem 283. how to maintain insert position (repeated elements need to be deleted).
+```
+var removeDuplicates = function(nums) {  
+    if (!nums || !nums.length)   return 0;
+    if (nums.length < 2)    return nums.length;
+    
+    var insertPos = 1;
+    for (var i = 1; i < nums.length; i++) {
+        if (nums[i] !== nums[i-1])   nums[insertPos++] = nums[i];
+    }
+    return insertPos;
+};
+```
