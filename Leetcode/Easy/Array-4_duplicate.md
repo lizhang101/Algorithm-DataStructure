@@ -51,3 +51,4 @@ var containsNearbyDuplicate = function(nums, k) {
 
 ## Solution
 
+- [solution using bucket](https://discuss.leetcode.com/topic/15199/ac-o-n-solution-in-java-using-buckets-with-explanation) don't understand.
