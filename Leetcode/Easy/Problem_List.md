@@ -70,8 +70,9 @@
 - [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
 
 ## Array
-1. two pointers
-  - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
+1. two pointers   [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-1_two%20pointers.md)
+  - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)  
+  - [27. Remove Element](https://leetcode.com/problems/remove-element)
   - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  Medium
   - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 -------------------------------------------------------------------------------------------------------------  
@@ -85,7 +86,6 @@
   - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Medium
 --------------------------------------------------------------------------------------------------------------------------  
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
-- [27. Remove Element](https://leetcode.com/problems/remove-element)
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
