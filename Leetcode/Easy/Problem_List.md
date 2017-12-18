@@ -89,11 +89,14 @@
   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
   - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
   - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)  Medium
+  - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 --------------------------------------------------------------------------------------------------------------
+5. Pascal's Triangle
+  - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
+  - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
+--------------------------------------------------------------------------------------------------------------  
 
-- [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
-- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
-- [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
+
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
 - [1. Two Sum](https://leetcode.com/problems/two-sum)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
