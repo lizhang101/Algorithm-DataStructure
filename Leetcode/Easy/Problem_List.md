@@ -92,11 +92,18 @@
 5. Pascal's Triangle
   - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
   - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
---------------------------------------------------------------------------------------------------------------  
-- [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
-- [1. Two Sum](https://leetcode.com/problems/two-sum)
-- [189. Rotate Array](https://leetcode.com/problems/rotate-array)
-- [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)
+-------------------------------------------------------------------------------------------------------------- 
+Others. 
+  - [189. Rotate Array](https://leetcode.com/problems/rotate-array)   _**try to do this in multiple ways**_
+  - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
+  - [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)  _**two ways**_
+  - [1. Two Sum](https://leetcode.com/problems/two-sum)
+--------------------------------------------------------------------------------------------------------------   
+Related Medium Problems
+  - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
+  - [15. 3Sum](https://leetcode.com/problems/3sum)
+  - [18. 4Sum](https://leetcode.com/problems/4sum)
+
 
 ## Binary Tree
 1. need redo _**!**_  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-1_need-redo.md)
