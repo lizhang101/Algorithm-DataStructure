@@ -88,6 +88,7 @@
   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
   - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
   - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)  Medium
+  - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 --------------------------------------------------------------------------------------------------------------
 5. Pascal's Triangle
   - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
