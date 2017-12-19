@@ -93,7 +93,7 @@
   - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
   - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
 -------------------------------------------------------------------------------------------------------------- 
-Others. 
+6. Others  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-6_others.md)
   - [189. Rotate Array](https://leetcode.com/problems/rotate-array)   _**try to do this in multiple ways**_
   - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
   - [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)  _**three ways**_
