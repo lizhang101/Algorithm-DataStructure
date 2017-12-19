@@ -53,7 +53,3 @@ var containsNearbyDuplicate = function(nums, k) {
 
 - [solution using bucket](https://discuss.leetcode.com/topic/15199/ac-o-n-solution-in-java-using-buckets-with-explanation) don't understand.
 
-# [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
-## Problem Description
-
-## Solution
