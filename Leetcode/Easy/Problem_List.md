@@ -96,7 +96,7 @@
 Others. 
   - [189. Rotate Array](https://leetcode.com/problems/rotate-array)   _**try to do this in multiple ways**_
   - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
-  - [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)  _**two ways**_
+  - [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)  _**three ways**_
   - [1. Two Sum](https://leetcode.com/problems/two-sum)
 --------------------------------------------------------------------------------------------------------------   
 Related Medium Problems
