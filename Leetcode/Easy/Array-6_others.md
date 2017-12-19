@@ -1,10 +1,70 @@
 # [189. Rotate Array](https://leetcode.com/problems/rotate-array)   
 _**try to do this in multiple ways**_
 ## Problem Description
+Rotate an array of n elements to the right by k steps.
+```
+For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+```
+Note:
+
+Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
+- Could you do it in-place with O(1) extra space?
+- Related problem: [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
 
 ## Solution
-
-
+#### Solution 1 : brute force
+Remove and insert the last k elements one by one. For example:
+`nums = [1,2,3,4,5], k=2`, => `[5,1,2,3,4]` => `[4,5,1,2,3]`.
+```
+var rotate = function(nums, k) {
+    k = k % nums.length;
+    while (k > 0) {
+        nums.unshift(nums.pop());
+        k--;
+    }
+}
+```
+#### Solution 2 : 
+Remove and insert the last k elements as a chunck. For example:
+`nums=[1,2,3,4,5,6,7], k = 3` => `nums=[1,2,3,4], tmp = [5,6,7]` => `nums.unshift(...tmp) = [5,6,7,1,2,3,4]`
+OR : `nums = [5,6,7], temp = [1,2,3,4]` => `nums.push(...temp) = [5,6,7,1,2,3,4]`
+```
+var rotate = function(nums, k) {
+    k = k % nums.length;
+    nums.unshift(...nums.splice(nums.length-k, k));
+    /* or */
+    nums.push(...nums.splice(0, nums.length-k));
+};
+```
+#### Solution 3 :
+Reverse of reverse. For example:
+`nums = [1,2,3,4,5], k=2` => reverse `[1,2,3]` and `[4,5]` inside nums => `[3,2,1,5,4]`, then reverse nums => `[4,5,1,2,3]`.
+```
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {void} Do not return anything, modify nums in-place instead.
+ */
+var rotate = function(nums, k) {
+    if (!nums || nums.length < 2)  return;
+    k = k % nums.length;    
+    reverse(nums, 0, nums.length-k-1);
+    reverse(nums, nums.length-k, nums.length-1);
+    reverse(nums, 0, nums.length-1);
+    
+    function reverse(nums, i, j) {
+        var tmp;       
+        while(i < j){
+            tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+            i++;
+            j--;
+        }
+    }
+};
+```
+ 
 # [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
 ## Problem Description
 
