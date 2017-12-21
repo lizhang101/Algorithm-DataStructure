@@ -127,8 +127,10 @@ Related Medium Problems
   - [100. Same Tree](https://leetcode.com/problems/same-tree)
     - 210 medium
     - 332 medium
+  - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+    - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) Medium
 -------------------------------------------------------------------------------------------------------------------------
-- [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
 - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree)
