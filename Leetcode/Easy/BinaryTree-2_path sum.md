@@ -109,7 +109,7 @@ var pathSum = function(root, sum) {
 
 ```
 
-_**Optimization:**_
+#### [Optimization](https://discuss.leetcode.com/topic/65100/python-solution-with-detailed-explanation)
 
 # [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)  -  Medium
 
