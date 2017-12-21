@@ -119,6 +119,10 @@ Related Medium Problems
   - [666. Path Sum IV](https://leetcode.com/problems/path-sum-iv)  -  Medium, Locked
   - [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)  -  Hard
 ---------------------------------------------------------------------------------------------------------------  
+3. Lowest Common Ancestor (LCA)   [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-3.%20LCA.md)
+  - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+    - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) Medium
+-----------------------------------------------------------------------------------------------------------------
   - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
     - 491 medium
   - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
@@ -127,8 +131,7 @@ Related Medium Problems
   - [100. Same Tree](https://leetcode.com/problems/same-tree)
     - 210 medium
     - 332 medium
-  - [235. Lowest Common Ancestor of a Binary Search](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
-    - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) Medium
+
 -------------------------------------------------------------------------------------------------------------------------
 
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
