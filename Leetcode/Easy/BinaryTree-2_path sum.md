@@ -51,6 +51,65 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 ```
 
 # [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)  -  Easy
+## Problem Description
+You are given a binary tree in which each node contains an integer value.
+
+Find the number of paths that sum to a given value.
+
+_**The path does not need to start or end at the root or a leaf, but it must go downwards (traveling only from parent nodes to child nodes).**_
+
+The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
+
+Example:
+```
+root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8
+
+      10
+     /  \
+    5   -3
+   / \    \
+  3   2   11
+ / \   \
+3  -2   1
+
+Return 3. The paths that sum to 8 are:
+
+1.  5 -> 3
+2.  5 -> 2 -> 1
+3. -3 -> 11
+```
+
+## Solution
+![path sum III](images/pathSumIII.png)
+
+Base on problem 112's idea, we need to add one more recursion for starting path from any node. The total sum equals to : the path num start from current node + path sum start from left of current node + path sum start from right of current node.
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} sum
+ * @return {number}
+ */
+var pathSum = function(root, sum) {
+    if (!root)   return 0;
+    
+    function findPath(node, val) {
+        if (!node)   return 0;
+        return (node.val === val) + findPath(node.left, val - node.val) + findPath(node.right, val - node.val);
+    }
+    
+    return findPath(root, sum) + pathSum(root.left, sum) + pathSum(root.right, sum);
+};
+
+```
+
+_**Optimization:**_
 
 # [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)  -  Medium
 
