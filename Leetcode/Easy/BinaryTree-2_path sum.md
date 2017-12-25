@@ -147,6 +147,73 @@ var pathSum = function(root, sum) {
 ```
 
 # [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)  -  Medium
+## Problem Description
+Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
+```
+For example:
+Given the below binary tree and sum = 22,
+              5
+             / \
+            4   8
+           /   / \
+          11  13  4
+         /  \    / \
+        7    2  5   1
+return
+[
+   [5,4,11,2],
+   [5,8,4,5]
+]
+```
+## Solution
+Traverse every node and keep track of all node element from root to current node in an array. If the sum from root to current node equalt to target sum and current node is leaf, then push the array to result array.
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} sum
+ * @return {number[][]}
+ */
+
+var pathSum = function(root, sum) {
+    var result = [];
+    findPath(root, sum, []);
+    return result;
+    
+    function findPath(node, target, arr) {
+        if (!node)   return;        
+        arr.push(node.val);
+        if (node.val === target && !node.left && !node.right) result.push(arr.slice());
+        findPath(node.left, target-node.val, arr);
+        findPath(node.right, target-node.val, arr);
+        arr.pop();
+    }
+};
+```
+## Question
+Why the following code not work?
+```
+var pathSum = function(root, sum) {
+    var result = [];
+    findPath(root, sum, []);
+    return result;
+    
+    function findPath(node, target, arr) {
+        if (!node)   return;        
+        arr.push(node.val);
+        if (node.val === target && !node.left && !node.right) result.push(arr);   // NOT arr.slice()
+        findPath(node.left, target-node.val, arr);
+        findPath(node.right, target-node.val, arr);
+        arr.pop();
+    }
+};
+```
 
 # [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium
 
