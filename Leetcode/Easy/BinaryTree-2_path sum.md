@@ -196,24 +196,6 @@ var pathSum = function(root, sum) {
     }
 };
 ```
-## Question
-Why the following code not work?
-```
-var pathSum = function(root, sum) {
-    var result = [];
-    findPath(root, sum, []);
-    return result;
-    
-    function findPath(node, target, arr) {
-        if (!node)   return;        
-        arr.push(node.val);
-        if (node.val === target && !node.left && !node.right) result.push(arr);   // NOT arr.slice()
-        findPath(node.left, target-node.val, arr);
-        findPath(node.right, target-node.val, arr);
-        arr.pop();
-    }
-};
-```
 
 # [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium
 
