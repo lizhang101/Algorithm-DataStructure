@@ -109,7 +109,41 @@ var pathSum = function(root, sum) {
 
 ```
 
-#### [Optimization](https://discuss.leetcode.com/topic/65100/python-solution-with-detailed-explanation)
+### [Optimization](https://discuss.leetcode.com/topic/65100/python-solution-with-detailed-explanation)
+Use hashtable (extra space) get O(N) time complexity.
+- As we traverse down the tree, at an arbitrary node N, we store the sum from root to this node N (sum_so_far = sum_so_far (prefix) + N.val) in hash-table as KEY, and VALUE++. Which means we found VALUE number of paths whose sum equal to KEY.
+- For each node N, we check if (sum_so_far - sum) exist in hash-table, if yes, `result += hash[sum_so_far - sum]`. The reason is for example, if we have path `[a,b,c,d,e,f]`, if Sum(a~f) - Sum(a~c) = target, then path d->e->f sum equals to target. As we stored Sum(a~c) and Sum(a~f) in hash-table, so if Sum(a~f) - target = Sum(a~c) which also means path exist.
+- After we are done with a node and all its grandchildren, we remove it from the hash-table. This makes sure that the number of complement paths returned always correspond to paths that ended at a predecessor node.
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} sum
+ * @return {number}
+ */
+var pathSum = function(root, sum) {
+    let map = {};
+    map[0] = 1;
+    return helper(root, 0, sum);
+    
+    function helper(root, curr, target) {
+        if (!root) return 0;
+        curr += root.val;
+        let res = map[curr - target] || 0;
+        map[curr] = (map[curr] || 0) + 1;
+        
+        res += helper(root.left, curr, target) + helper(root.right, curr, target);
+        map[curr] = map[curr] - 1;
+        return res;
+    }
+};
+```
 
 # [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)  -  Medium
 
