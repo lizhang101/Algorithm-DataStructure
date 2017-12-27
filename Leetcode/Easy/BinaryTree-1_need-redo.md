@@ -107,3 +107,6 @@ This problem is generally believed to have two solutions: the top down approach 
   }
   ```
   In this bottom up approach, each node in the tree only need to be accessed once. Thus the time complexity is O(N), better than the first solution.
+
+
+# [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)
