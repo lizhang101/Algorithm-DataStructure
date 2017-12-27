@@ -109,6 +109,7 @@ Related Medium Problems
 1. need redo _**!**_  [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-1_need-redo.md)
   - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
   - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+  - [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)
 2. path sum [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/BinaryTree-2_path%20sum.md)
   - [112. Path Sum](https://leetcode.com/problems/path-sum)   --- root-to-leaf path
   - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)  -  Easy
@@ -143,7 +144,6 @@ Related Medium Problems
   - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
   - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)
 -------------------------------------------------------------------------------------------------------------------------
-- [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)
 
 
 ## Linked List
