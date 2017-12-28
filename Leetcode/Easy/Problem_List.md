@@ -146,7 +146,7 @@ Related Medium Problems
 -------------------------------------------------------------------------------------------------------------------------
 
 
-## Linked List
+## Linked List - change node.val or node.next
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
 - [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
 
