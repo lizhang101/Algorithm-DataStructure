@@ -147,20 +147,24 @@ Related Medium Problems
 
 
 ## Linked List - change node.val or node.next
+1. need redo  
+  - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+  - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
+  - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
+  - [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+  - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium - dummy node
+  
+2. others
+- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)   medium - don't change node value
+- [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) - dummy node
+- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)   mediu - dummy node
+- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
 - [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)
 
   Only give access of node which is to be deleted.
   
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
-- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
-- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
-- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)   medium
-- [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
-- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium - dummy node
-- [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
-- [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
-- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)   mediu
 
 ## Dynamic Programming
 - [292. Nim Game](https://leetcode.com/problems/nim-game)
