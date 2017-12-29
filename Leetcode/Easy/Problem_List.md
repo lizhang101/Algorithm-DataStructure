@@ -150,8 +150,8 @@ Related Medium Problems
 1. need redo  
   - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
   - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
-  - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) - [Ref](https://leetcode.com/problems/palindrome-linked-list/discuss/64500)
-  - [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) - [Ref](https://leetcode.com/problems/linked-list-cycle-ii/discuss/44793)
+  - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) - _**[Ref](https://leetcode.com/problems/palindrome-linked-list/discuss/64500)**_
+  - [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) - _**[Ref](https://leetcode.com/problems/linked-list-cycle-ii/discuss/44793)**_
   - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium - dummy node
   
 2. others
