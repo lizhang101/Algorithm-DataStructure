@@ -157,7 +157,7 @@ Related Medium Problems
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 - [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)   medium
 - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
-- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium
+- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  medium - dummy node
 - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
 - [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)   mediu
