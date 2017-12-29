@@ -169,6 +169,7 @@ Related Medium Problems
 ## Dynamic Programming
 - [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+- [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [198. House Robber](https://leetcode.com/problems/house-robber)
 - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
