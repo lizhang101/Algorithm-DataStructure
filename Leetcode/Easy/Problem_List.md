@@ -167,7 +167,7 @@ Related Medium Problems
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 
 ## Dynamic Programming
-- [292. Nim Game](https://leetcode.com/problems/nim-game)
+- [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [198. House Robber](https://leetcode.com/problems/house-robber)
