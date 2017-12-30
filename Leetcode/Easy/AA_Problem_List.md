@@ -180,13 +180,14 @@ Related Medium Problems
   - [213. House Robber II](https://leetcode.com/problems/house-robber-ii) Medium
   - [337. House Robber III](https://leetcode.com/problems/house-robber-iii) Medium
 -------------------------------------------------------------------------------------------------------------------
-- [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
-- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
-- [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
-
-
+3. Others
+  - [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
+  - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+  - [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
+-------------------------------------------------------------------------------------------------------------------
 - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
 - [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
+-------------------------------------------------------------------------------------------------------------------
 
 ## Others
 - [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
