@@ -175,10 +175,10 @@ Related Medium Problems
   - [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) Hard
   - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) Hard  
 -------------------------------------------------------------------------------------------------------------------  
-2. House Robber [Solution]()
+2. House Robber [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/DP-2_House-Robber.md)
   - [198. House Robber](https://leetcode.com/problems/house-robber)
-  - [213. House Robber II](https://leetcode.com/problems/house-robber-ii)
-  - [337. House Robber III](https://leetcode.com/problems/house-robber-iii)
+  - [213. House Robber II](https://leetcode.com/problems/house-robber-ii) Medium
+  - [337. House Robber III](https://leetcode.com/problems/house-robber-iii) Medium
 -------------------------------------------------------------------------------------------------------------------
 - [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
