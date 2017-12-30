@@ -32,9 +32,23 @@ var maxProfit = function(prices) {
 
 # [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 ## Problem Description
+Say you have an array for which the ith element is the price of a given stock on day i.
+
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (ie, buy one and sell one share of the stock multiple times). However, you may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
 ## Solution
-
+Basic idea: the max profit is the sum of all positive differences between every pair of array elements.
+```
+var maxProfit = function(prices) {
+    if (prices.length < 2)   return 0;
+    let buy = prices[0], profit = 0;
+    for (let price of prices) {
+        profit += Math.max(0, price - buy);
+        buy = price;
+    }
+    return profit;
+};
+```
 
 # [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)
 ## Problem Description
