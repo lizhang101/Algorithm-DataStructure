@@ -40,8 +40,33 @@ After robbing those houses on that street, the thief has found himself a new pla
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
 
 ## Solution
+Basic idea : break the circle, the houses you can rob is either house[0 : length-1] or house[1 : length]. base on problem 198.
+```
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var rob = function(nums) {
+    if (!nums.length)         return 0;
+    if (nums.length === 1)    return nums[0];
+    
+    return Math.max(helper(nums.slice(0, nums.length-1)), helper(nums.slice(1)));
+};
 
-
+function helper(nums) {
+    if (nums.length === 1)    return nums[0];
+    
+    let money = [];
+    money[0] = nums[0];
+    money[1] = Math.max(nums[0], nums[1]);
+    for (let i = 2; i < nums.length; i++) {
+        let m = Math.max(money[0]+nums[i], money[1]);
+        money[0] = money[1];
+        money[1] = m;
+    }
+    return money[1];
+};
+```
 
 # [337. House Robber III](https://leetcode.com/problems/house-robber-iii)
 ## Problem Description
