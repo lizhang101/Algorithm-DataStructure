@@ -173,14 +173,18 @@ Related Medium Problems
   - [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) Meduim
   - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) Meduim
   - [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) Hard
-  - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) Hard
-  
+  - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) Hard  
 -------------------------------------------------------------------------------------------------------------------  
+2. House Robber [Solution]()
+  - [198. House Robber](https://leetcode.com/problems/house-robber)
+  - [213. House Robber II](https://leetcode.com/problems/house-robber-ii)
+  - [337. House Robber III](https://leetcode.com/problems/house-robber-iii)
+-------------------------------------------------------------------------------------------------------------------
 - [292. Nim Game](https://leetcode.com/problems/nim-game) - this one is more like math than DP.
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 - [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 
-- [198. House Robber](https://leetcode.com/problems/house-robber)
+
 - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
 - [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
 
