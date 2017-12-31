@@ -95,5 +95,37 @@ Maximum amount of money the thief can rob = 4 + 5 = 9.
 ```
 
 ## Solution
+Basic idea : [ref](https://leetcode.com/problems/house-robber-iii/discuss/79330)
 
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+
+var rob = function(root) {
+    let res = robSub(root);
+    return Math.max(res[0], res[1]);
+};
+
+function robSub(node) {
+    let res = [0, 0];
+    if (!node)    return  res;
+    
+    let left = robSub(node.left);
+    let right = robSub(node.right);
+    
+    res[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+    res[1] = node.val + left[0] + right[0];
+    
+    return res;
+}
+```
 
