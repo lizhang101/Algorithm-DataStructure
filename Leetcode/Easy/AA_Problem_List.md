@@ -186,6 +186,7 @@ Related Medium Problems
   - [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 -------------------------------------------------------------------------------------------------------------------
 - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
+- [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) Medium
 - [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
 -------------------------------------------------------------------------------------------------------------------
 
