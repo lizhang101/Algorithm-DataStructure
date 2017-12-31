@@ -185,10 +185,11 @@ Related Medium Problems
   - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
   - [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 -------------------------------------------------------------------------------------------------------------------
-- [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
-- [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) Medium
-- [278. First Bad Version](https://leetcode.com/problems/first-bad-version)
--------------------------------------------------------------------------------------------------------------------
+  - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) - more like binary search
+  - [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) Medium _**ToDo**_
+  - [278. First Bad Version](https://leetcode.com/problems/first-bad-version) - more like binary search
+  - [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) - more like binary search
+
 
 ## Others
 - [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
