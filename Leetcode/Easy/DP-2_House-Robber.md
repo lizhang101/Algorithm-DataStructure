@@ -97,6 +97,12 @@ Maximum amount of money the thief can rob = 4 + 5 = 9.
 ## Solution
 Basic idea : [ref](https://leetcode.com/problems/house-robber-iii/discuss/79330)
 
+For each node, we can rob it or not rob it. Then we keep track of these two values for each node, e.g. `nodeRes[no_rob, rob]`. So for a node, we also have it's sub-nodes' value : leftRes and rightRes which also have same definition. 
+- If we rob current node, then the money we can get should be : `nodeRes[rob] = node.val + leftRes[no_rob] + rightRes[no_rob]`. 
+- If we do not rob current node, then the money we can get should be : `nodeRes[no_rob] = Max(leftRes[no_rob], leftRes[rob]) + Max(rightRes[no_rob], rightRes[rob])`. 
+- As soon as we reach the root node, max money we can get should be `Max(nodeRes[no_rob], nodeRes[rob])`. 
+- If node is null, `nodeRes = [0, 0]`.
+
 ```
 /**
  * Definition for a binary tree node.
