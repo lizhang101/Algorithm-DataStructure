@@ -186,7 +186,7 @@ Related Medium Problems
   - [747. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 -------------------------------------------------------------------------------------------------------------------
   - [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) - more like binary search
-  - [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) Medium _**ToDo**_
+  - [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) Medium _**ToDo**_ - [Ref](https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84764)
   - [278. First Bad Version](https://leetcode.com/problems/first-bad-version) - more like binary search
   - [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) - more like binary search
 
