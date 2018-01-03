@@ -196,7 +196,7 @@ Related Medium Problems
 
 ## Others
 
-- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) - [Ref](https://leetcode.com/problems/implement-queue-using-stacks/discuss/64206)
 - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 - [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)
 - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
