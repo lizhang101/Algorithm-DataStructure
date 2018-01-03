@@ -196,13 +196,13 @@ Related Medium Problems
   - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
 
 ## Others
+  - [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) ---- judge condition? _**Redo**_
+  - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) ---- Idea reusable
+  - [155. Min Stack](https://leetcode.com/problems/min-stack) --- how to keep track of info?
+  - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) - [Ref](https://leetcode.com/problems/implement-queue-using-stacks/discuss/64206) ---- Java Stack and Queue
+  - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) ---- Java Stack and Queue
+  - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 
-- [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) ---- judge condition?
-- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) - [Ref](https://leetcode.com/problems/implement-queue-using-stacks/discuss/64206)
-- [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
-- [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
-- [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
-- [155. Min Stack](https://leetcode.com/problems/min-stack)
 
 ### Reference
 - [LeetCode with Javascript初学者练习](https://skyyen999.gitbooks.io/-leetcode-with-javascript/content/)
