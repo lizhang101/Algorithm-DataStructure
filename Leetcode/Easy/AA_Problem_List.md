@@ -191,8 +191,9 @@ Related Medium Problems
   - [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) - more like binary search
 
 ## [bit manipulation](https://leetcode.com/problems/sum-of-two-integers/discuss/84278)
-- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
-- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+  - [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
+  - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+  - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
 
 ## Others
 
@@ -201,7 +202,6 @@ Related Medium Problems
 - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
 -------------------------------------------------------------------------------------------------------------------
 - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
-- [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
 - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [155. Min Stack](https://leetcode.com/problems/min-stack)
 
