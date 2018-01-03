@@ -196,10 +196,11 @@ Related Medium Problems
 
 ## Others
 
+- [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) ---- judge condition?
 - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) - [Ref](https://leetcode.com/problems/implement-queue-using-stacks/discuss/64206)
-- [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
-- [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)
 - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
+-------------------------------------------------------------------------------------------------------------------
+- [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
 - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [155. Min Stack](https://leetcode.com/problems/min-stack)
