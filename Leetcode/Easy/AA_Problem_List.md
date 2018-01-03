@@ -192,7 +192,7 @@ Related Medium Problems
 
 
 ## Others
-- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
+- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) --- [bit manipulation](https://leetcode.com/problems/sum-of-two-integers/discuss/84278)
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
 - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
