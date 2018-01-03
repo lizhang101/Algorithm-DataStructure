@@ -190,10 +190,12 @@ Related Medium Problems
   - [278. First Bad Version](https://leetcode.com/problems/first-bad-version) - more like binary search
   - [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) - more like binary search
 
+## [bit manipulation](https://leetcode.com/problems/sum-of-two-integers/discuss/84278)
+- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
+- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
 
 ## Others
-- [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) --- [bit manipulation](https://leetcode.com/problems/sum-of-two-integers/discuss/84278)
-- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)
+
 - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 - [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)
