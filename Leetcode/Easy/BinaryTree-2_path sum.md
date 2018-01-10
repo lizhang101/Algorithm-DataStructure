@@ -197,7 +197,7 @@ var pathSum = function(root, sum) {
 };
 ```
 
-# [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium
+# [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium  -  Graph ???
 
 # [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)  -  Medium
 ## Problem Description
