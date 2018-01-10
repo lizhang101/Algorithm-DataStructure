@@ -200,6 +200,56 @@ var pathSum = function(root, sum) {
 # [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)   -   Medium
 
 # [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)  -  Medium
+## Problem Description
+Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
+
+An example is the root-to-leaf path 1->2->3 which represents the number 123.
+
+Find the total sum of all root-to-leaf numbers.
+
+For example,
+```
+    1
+   / \
+  2   3
+```  
+The root-to-leaf path 1->2 represents the number 12.
+The root-to-leaf path 1->3 represents the number 13.
+
+Return the sum = 12 + 13 = 25.
+
+## Solution
+Basic idea is similar as 113, the difference is recode the "path value". When meet leaf, add path value to total sum.
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var sumNumbers = function(root) {
+    var sum = 0;
+    helper(root, 0);
+    return sum;
+    
+    function helper(node, path_sum) {
+        if (!node)     return;
+
+        path_sum = path_sum*10 + node.val;
+        if (!node.left && !node.right) {
+            sum += path_sum;
+        } else {
+            helper(node.left, path_sum);
+            helper(node.right, path_sum);
+        }
+    }
+};    
+```
 
 # [120. Triangle](https://leetcode.com/problems/triangle/description/)   -   Medium
 
