@@ -83,6 +83,7 @@
 3. majority element
   - [169. Majority Element](https://leetcode.com/problems/majority-element)
   - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Medium
+  - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) Medium
 --------------------------------------------------------------------------------------------------------------
 4. duplicate    [Solution](https://github.com/ApplefaceLisa/Algorithm-DataStructure/blob/master/Leetcode/Easy/Array-4_duplicate.md)
   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
