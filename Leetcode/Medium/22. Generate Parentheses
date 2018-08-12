@@ -49,3 +49,5 @@ function backtrack(left, right, current, res) {
   if (right) backtrack(left, right - 1, current + ")", res);
 }
 ```
+
+## [Leetcode solutions](https://leetcode.com/articles/generate-parentheses/)
