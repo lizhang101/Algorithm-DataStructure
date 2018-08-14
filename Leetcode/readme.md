@@ -7,6 +7,7 @@ about leetcode practices.
 ### Ref
 - https://github.com/fishercoder1534/Leetcode
 - https://github.com/chihungyu1116/leetcode-javascript
+- [LeetCode All in One 题目讲解汇总](http://www.cnblogs.com/grandyang/p/4606334.html)
 
 
 ### Summary
